@@ -64,9 +64,16 @@ export default function DeckPage({ params }) {
             </Link>
             <ImportFlashcardsButton 
               deckId={params.deckId} 
-              onImport={fetchDeckData}
+              onImport={() => {
+                fetchDeckData();
+              }}
             />
-            <CreateFlashcard deckId={params.deckId} onUpdate={fetchDeckData} />
+            <CreateFlashcard 
+              deckId={params.deckId} 
+              onUpdate={() => {
+                fetchDeckData();
+              }} 
+            />
           </div>
         </div>
         

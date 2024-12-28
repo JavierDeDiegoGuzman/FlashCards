@@ -48,6 +48,7 @@ export default function CreateFlashcard({ deckId, onUpdate }) {
 
       handleClose();
       if (onUpdate) onUpdate();
+      if (window.refreshFlashcardList) window.refreshFlashcardList();
     } catch (error) {
       console.error('Error:', error);
       setError('Error al crear la tarjeta. Por favor, inténtalo de nuevo.');
