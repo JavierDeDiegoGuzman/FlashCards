@@ -10,7 +10,7 @@ export default function Page() {
       </header>
       <main>
         <section className="flex flex-col items-center justify-center text-center gap-12 px-8 py-12">
-          <h1 className="text-3xl font-extrabold">Flashcards ⚡️</h1>
+          <h1 className="text-3xl font-extrabold">FastCards ⚡️</h1>
           <p className="text-lg opacity-80">
             Practica y aprende con nuestros mazos de flashcards
           </p>

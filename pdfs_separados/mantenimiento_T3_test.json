@@ -1,0 +1,274 @@
+[
+  {
+    "front": "¿Quién define los intervalos de mantenimiento de las aeronaves?",
+    "back": "El Maintenance Steering Group (MSG) de cada aeronave.",
+    "wrongOptions": [
+      "La autoridad aeronáutica",
+      "El fabricante de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de inspección se realiza antes del despegue y consiste en una revisión visual alrededor de la aeronave?",
+    "back": "Walk Around.",
+    "wrongOptions": [
+      "Inspección 48 horas",
+      "Inspección por límite de horas"
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer si se detecta un fallo durante la inspección de 48 horas?",
+    "back": "Anotarlo en el lookbook y consultar la MEL.",
+    "wrongOptions": [
+      "Realizar una inspección adicional",
+      "Ignorarlo si no es grave"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de inspección se realiza cada vez que se alcanza un número determinado de horas de vuelo?",
+    "back": "Inspección por límite de horas.",
+    "wrongOptions": [
+      "Inspección de Tránsito",
+      "Inspección 48 horas"
+    ]
+  },
+  {
+    "front": "¿Qué ocurre si se salta una inspección mandatoria por límite de horas?",
+    "back": "La aeronave puede perder el permiso de aeronavegabilidad.",
+    "wrongOptions": [
+      "Se puede volar sin problemas",
+      "Se debe realizar una inspección adicional"
+    ]
+  },
+  {
+    "front": "¿Qué son las letter check en el mantenimiento de aeronaves?",
+    "back": "Divisiones de mantenimiento en 20 letras, cada una asignada a una tarea específica.",
+    "wrongOptions": [
+      "Inspecciones realizadas cada 100 horas",
+      "Revisiones de componentes por ciclos operativos"
+    ]
+  },
+  {
+    "front": "¿Cuál es la principal característica del B777 que impactó en el mantenimiento?",
+    "back": "Tiene solo 2 motores, lo que reduce la frecuencia de mantenimiento.",
+    "wrongOptions": [
+      "Es más pesado que otros aviones",
+      "Requiere más inspecciones por su tamaño"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de inspección se realiza en los motores de un avión?",
+    "back": "Inspección de zonas calientes (HSI).",
+    "wrongOptions": [
+      "Inspección de Tránsito",
+      "Letter Check"
+    ]
+  },
+  {
+    "front": "¿Qué significa RCM en el contexto del mantenimiento de aeronaves?",
+    "back": "Reliability Centre Maintenance.",
+    "wrongOptions": [
+      "Regulatory Compliance Management",
+      "Routine Check Maintenance"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función de la autoridad reguladora en el mantenimiento de aeronaves?",
+    "back": "Asegurarse de que las aeronaves sean aeronavegables y revisar la documentación.",
+    "wrongOptions": [
+      "Realizar el mantenimiento físico de las aeronaves",
+      "Definir los intervalos de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Qué implica el proceso de 'Def. Manuel' en el mantenimiento?",
+    "back": "Asegurar que los sistemas continúan realizando sus funciones y mantienen la fiabilidad.",
+    "wrongOptions": [
+      "Realizar solo inspecciones visuales",
+      "Sustituir todos los componentes de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué es la fiabilidad inherente en el contexto aeronáutico?",
+    "back": "Es la máxima seguridad que un componente puede ofrecer durante el mantenimiento preventivo.",
+    "wrongOptions": [
+      "El tiempo que un componente puede funcionar sin fallar",
+      "La frecuencia de mantenimiento requerida para un componente"
+    ]
+  },
+  {
+    "front": "¿Qué es la verificación en el mantenimiento de aeronaves?",
+    "back": "Procedimiento que debe estar escrito y ser comprendido por personal cualificado.",
+    "wrongOptions": [
+      "La ejecución del procedimiento de mantenimiento",
+      "La validación de un procedimiento previo"
+    ]
+  },
+  {
+    "front": "¿Qué se entiende por validación en el contexto del mantenimiento?",
+    "back": "Comprobar que un procedimiento se ha llevado a cabo correctamente.",
+    "wrongOptions": [
+      "Escribir un procedimiento nuevo",
+      "Revisar la documentación de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Cuál es una de las metas del mantenimiento en aeronaves?",
+    "back": "Entregar la aeronave en condiciones de aeronavegabilidad en el plazo determinado.",
+    "wrongOptions": [
+      "Realizar el mantenimiento sin importar el tiempo",
+      "Aumentar la cantidad de vuelos realizados"
+    ]
+  },
+  {
+    "front": "¿Qué se busca asegurar con los objetivos del mantenimiento?",
+    "back": "La realización de acciones que garanticen la seguridad y fiabilidad del equipo.",
+    "wrongOptions": [
+      "Reducir costos de mantenimiento",
+      "Aumentar el número de horas de vuelo"
+    ]
+  },
+  {
+    "front": "¿Qué significa la validación en el contexto de procedimientos de mantenimiento?",
+    "back": "Significa que el procedimiento se ha llevado a cabo realmente tal y como está escrito y es adecuado y aceptable.",
+    "wrongOptions": [
+      "Significa que el procedimiento es opcional y no necesita ser seguido.",
+      "Significa que el procedimiento se puede modificar en cualquier momento."
+    ]
+  },
+  {
+    "front": "¿Quién suele ser el responsable de certificar las tareas de mantenimiento?",
+    "back": "El director de calidad.",
+    "wrongOptions": [
+      "El ingeniero de vuelo.",
+      "El piloto de la aeronave."
+    ]
+  },
+  {
+    "front": "¿Cuál es una de las metas del mantenimiento de aeronaves?",
+    "back": "Entregar la aeronave en condiciones de aeronavegabilidad al Departamento de Vuelo en el plazo de tiempo determinado.",
+    "wrongOptions": [
+      "Entregar la aeronave con un nuevo diseño.",
+      "Entregar la aeronave sin realizar ningún mantenimiento."
+    ]
+  },
+  {
+    "front": "¿Qué implica cumplir con la MEL en el mantenimiento de aeronaves?",
+    "back": "Cumplir con las acciones de mantenimiento aprobadas, aunque algunas puedan ser diferidas.",
+    "wrongOptions": [
+      "No realizar ninguna acción de mantenimiento.",
+      "Realizar todas las acciones de mantenimiento sin excepción."
+    ]
+  },
+  {
+    "front": "¿Cuál es uno de los objetivos del mantenimiento?",
+    "back": "Asegurar la realización de todo lo inherente a los niveles de seguridad y fiabilidad del equipo.",
+    "wrongOptions": [
+      "Reducir el tiempo de vuelo de la aeronave.",
+      "Incrementar el costo del mantenimiento."
+    ]
+  },
+  {
+    "front": "¿Qué establece la SPEC100 de la ATA?",
+    "back": "Recoge los números y nombres de los capítulos de la publicación técnica de mantenimiento que se ha de tener.",
+    "wrongOptions": [
+      "Especificaciones sobre el diseño de aeronaves.",
+      "Normas de vuelo para pilotos."
+    ]
+  },
+  {
+    "front": "¿Qué es el certificado de tipo de una aeronave?",
+    "back": "Es el certificado que expide EASA y certifica cómo es la aeronave y cómo está configurada.",
+    "wrongOptions": [
+      "Es un documento que permite volar sin restricciones.",
+      "Es un certificado que solo se expide después de la producción en serie."
+    ]
+  },
+  {
+    "front": "¿Cuándo se expide el certificado de tipo de una aeronave?",
+    "back": "Antes de la producción en serie.",
+    "wrongOptions": [
+      "Después de la producción en serie.",
+      "Solo cuando se realiza un cambio en la aeronave."
+    ]
+  },
+  {
+    "front": "¿Qué es un STC (Supplementary Type Certificate)?",
+    "back": "Es la certificación que se expide para modificar la configuración de la aeronave.",
+    "wrongOptions": [
+      "Es un certificado que permite volar sin restricciones.",
+      "Es un documento que solo se expide para aeronaves nuevas."
+    ]
+  },
+  {
+    "front": "¿Qué certifica el certificado de producción?",
+    "back": "Que el fabricante reúne los requisitos necesarios para la fabricación del avión.",
+    "wrongOptions": [
+      "Que la aeronave está lista para volar.",
+      "Que el avión ha sido vendido a una aerolínea."
+    ]
+  },
+  {
+    "front": "¿Qué autoridad expide el certificado de aeronavegabilidad?",
+    "back": "La autoridad nacional (AESA).",
+    "wrongOptions": [
+      "La autoridad supranacional (EASA).",
+      "El fabricante de la aeronave."
+    ]
+  },
+  {
+    "front": "¿Cuáles son los requisitos para obtener el certificado de aeronavegabilidad?",
+    "back": "Tener certificado tipo y de producción, MMEL, un programa de mantenimiento y boletines de servicio actualizados.",
+    "wrongOptions": [
+      "Solo tener el certificado de tipo.",
+      "No tener ningún tipo de certificación."
+    ]
+  },
+  {
+    "front": "¿Qué es un boletín de servicio?",
+    "back": "Es un consejo del fabricante para mejorar el mantenimiento de un componente.",
+    "wrongOptions": [
+      "Un documento que permite volar sin restricciones.",
+      "Un informe de accidentes de aeronaves."
+    ]
+  },
+  {
+    "front": "¿Qué se convierte en directiva de aeronavegabilidad?",
+    "back": "Un boletín de servicio que afecta a la seguridad operacional.",
+    "wrongOptions": [
+      "Cualquier documento de mantenimiento.",
+      "Un informe de vuelo."
+    ]
+  },
+  {
+    "front": "¿Cuál es la duración normal de un certificado de aeronavegabilidad?",
+    "back": "Un año, pero puede extenderse a dos años mediante un trámite documental.",
+    "wrongOptions": [
+      "Seis meses.",
+      "Cinco años."
+    ]
+  },
+  {
+    "front": "¿Qué se necesita para obtener un certificado de matrícula?",
+    "back": "Certificado de aeronavegabilidad, certificado de ruido y licencia de estación de radio.",
+    "wrongOptions": [
+      "Solo el certificado de aeronavegabilidad.",
+      "Un informe de vuelo."
+    ]
+  },
+  {
+    "front": "Si se compra un avión extranjero con un certificado de la FAA, ¿qué se debe hacer para volar en Europa?",
+    "back": "Solicitar el certificado tipo a EASA.",
+    "wrongOptions": [
+      "Volver a certificar el avión en Estados Unidos.",
+      "No se necesita hacer nada, el certificado es válido en Europa."
+    ]
+  },
+  {
+    "front": "¿Qué certificado se necesita para operar comercialmente un avión?",
+    "back": "Certificado de operador AOC.",
+    "wrongOptions": [
+      "Certificado de matrícula.",
+      "Certificado de ruido."
+    ]
+  }
+]

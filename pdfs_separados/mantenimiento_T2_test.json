@@ -1,0 +1,138 @@
+[
+  {
+    "front": "¿Cuál es el objetivo principal del Maintenance Steering Group (MSG) 1?",
+    "back": "Garantizar la máxima fiabilidad de las aeronaves.",
+    "wrongOptions": [
+      "Optimizar los costos de fabricación de aeronaves.",
+      "Regular el tráfico aéreo internacional."
+    ]
+  },
+  {
+    "front": "¿Qué técnica se utiliza para desarrollar árboles de decisión en el MSG-1?",
+    "back": "Técnica bottom-up.",
+    "wrongOptions": [
+      "Técnica top-down.",
+      "Análisis coste-beneficio."
+    ]
+  },
+  {
+    "front": "¿Cuáles son los tres procesos que el MSG-1 busca clasificar para el mantenimiento de componentes?",
+    "back": "Hard Time, On Condition y Condition Monitoring.",
+    "wrongOptions": [
+      "Preventivo, Correctivo y Predictivo.",
+      "Económico, Operacional y Estructural."
+    ]
+  },
+  {
+    "front": "¿Qué problema presenta el MSG-2 en comparación con el MSG-1?",
+    "back": "No diferencia el mantenimiento por razones de seguridad vs económicas.",
+    "wrongOptions": [
+      "No proporciona un árbol de decisiones claro.",
+      "Se centra exclusivamente en estructuras."
+    ]
+  },
+  {
+    "front": "¿Cuál es un enfoque clave del MSG-3 en comparación con los anteriores MSG?",
+    "back": "Orientación a tareas programadas en intervalos específicos.",
+    "wrongOptions": [
+      "Enfoque exclusivamente en procesos operacionales.",
+      "Clasificación de componentes por tamaño."
+    ]
+  },
+  {
+    "front": "Los ítems MSI se definen como aquellos cuyo fallo podría tener efectos sobre:",
+    "back": "La seguridad, economía u operación de la aeronave.",
+    "wrongOptions": [
+      "La apariencia estética del avión.",
+      "La eficiencia del combustible utilizado."
+    ]
+  },
+  {
+    "front": "¿Qué tipo de mantenimiento incluye inspecciones NDT?",
+    "back": "Mantenimiento On Condition.",
+    "wrongOptions": [
+      "Mantenimiento preventivo.",
+      "Mantenimiento estructural."
+    ]
+  },
+  {
+    "front": "'Condition Monitoring' implica operar componentes hasta su fallo. ¿Esto es correcto?",
+    "back": "'Sí'.",
+    "wrongOptions": [
+      "'No', se realiza mantenimiento preventivo antes del fallo.",
+      "'No', solo aplica a componentes eléctricos."
+    ]
+  },
+  {
+    "front": "'Trouble shooting' se refiere a:",
+    "back": "'Determinar en qué componente se ha producido un fallo.'",
+    "wrongOptions": [
+      "'Realizar reparaciones inmediatas sin diagnóstico previo.'",
+      "'Llevar a cabo inspecciones visuales sin análisis.'"
+    ]
+  },
+  {
+    "front": "¿Cuál es el objetivo principal de las tareas de servicio en mantenimiento aeronáutico?",
+    "back": "Mantener las características iniciales del componente.",
+    "wrongOptions": [
+      "Aumentar la eficiencia del combustible.",
+      "Modificar el diseño original del componente."
+    ]
+  },
+  {
+    "front": "¿Qué se evalúa durante una inspección funcional?",
+    "back": "Si el componente cumple con las especificaciones establecidas por el fabricante.",
+    "wrongOptions": [
+      "La estética del componente.",
+      "La historia de mantenimiento del componente."
+    ]
+  },
+  {
+    "front": "En una inspección operacional, ¿qué se verifica?",
+    "back": "Si el componente completa la misión para la que fue fabricado.",
+    "wrongOptions": [
+      "Si el componente cumple con tolerancias específicas.",
+      "El tiempo que tarda en abrirse un mecanismo."
+    ]
+  },
+  {
+    "front": "¿Qué tipo de prueba se utiliza para detectar grietas o daños en componentes sin dañarlos?",
+    "back": "Pruebas NDT (Non Destructive Test).",
+    "wrongOptions": [
+      "Inspecciones visuales simples.",
+      "Pruebas destructivas."
+    ]
+  },
+  {
+    "front": "'Discard' en el contexto de mantenimiento aeronáutico significa:",
+    "back": "'Desechar el componente'.",
+    "wrongOptions": [
+      "'Restaurar el componente a su estado original.'",
+      "'Reparar el componente utilizando piezas nuevas.'"
+    ]
+  },
+  {
+    "front": "'Restauración de componentes' implica:",
+    "back": "'Devolver al componente sus características iniciales, pero no completamente como nuevo.'",
+    "wrongOptions": [
+      "'Sustituir completamente el componente por uno nuevo.'",
+      "'Aumentar la capacidad operativa del componente.'"
+    ]
+  },
+  {
+    "front": "'Inspección visual detallada' requiere condiciones especiales. ¿Cuáles son algunas de estas condiciones?",
+    "back": "'Luz y condiciones atmosféricas adecuadas, y utillaje específico como lupa o calibre.'",
+    "wrongOptions": [
+      "'Condiciones climáticas adversas y herramientas estándar.'",
+      "'Sin necesidad de herramientas, solo observación directa.'"
+    ]
+  },
+  {
+    "front": "'Deterioro por fatiga de materiales' se produce principalmente debido a:",
+    "back": "'La presurización y despresurización durante los vuelos.'",
+    "wrongOptions": [
+      "'Las condiciones climáticas extremas en tierra.'",
+      "'Las colisiones menores con otros objetos en vuelo.'"
+    ]
+  }
+]

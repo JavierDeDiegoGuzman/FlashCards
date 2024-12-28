@@ -1,0 +1,1106 @@
+[
+  {
+    "front": "¿Cuál es la finalidad de la Regulación UE 1321/2014?",
+    "back": "Marcar las reglas de gestión y supervisión del mantenimiento de las aeronaves.",
+    "wrongOptions": [
+      "Establecer normas de vuelo para aeronaves",
+      "Definir los requisitos de diseño de aeronaves"
+    ]
+  },
+  {
+    "front": "¿Quién supervisa la gestión del mantenimiento según la Regulación UE 1321/2014?",
+    "back": "La autoridad aeronáutica, EASA.",
+    "wrongOptions": [
+      "El propietario de la aeronave",
+      "Las organizaciones de mantenimiento CAMO"
+    ]
+  },
+  {
+    "front": "¿Qué son las CAMO en el contexto del mantenimiento de aeronaves?",
+    "back": "Organizaciones de gestión de mantenimiento continuado de la aeronavegabilidad.",
+    "wrongOptions": [
+      "Comités de Aeronavegabilidad y Mantenimiento Operacional",
+      "Centros de Análisis de Mantenimiento de Operaciones"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función principal de la autoridad competente en España respecto al mantenimiento de aeronaves?",
+    "back": "Vigilar la aeronavegabilidad.",
+    "wrongOptions": [
+      "Realizar el mantenimiento de aeronaves",
+      "Emitir certificados de piloto"
+    ]
+  },
+  {
+    "front": "¿Qué organización es designada como autoridad competente en España?",
+    "back": "AESA (Agencia Española de Seguridad Aérea).",
+    "wrongOptions": [
+      "EASA (Agencia Europea de Seguridad Aérea)",
+      "AEM (Agencia Española de Mantenimiento)"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer la autoridad competente respecto a las organizaciones de mantenimiento con sede en un tercer país?",
+    "back": "Vigilar a través de EASA.",
+    "wrongOptions": [
+      "No tiene ninguna responsabilidad",
+      "Realizar auditorías anuales"
+    ]
+  },
+  {
+    "front": "¿Qué se requiere para la aprobación de programas de mantenimiento?",
+    "back": "La autoridad designada por el Estado miembro de matrícula de la aeronave.",
+    "wrongOptions": [
+      "La aprobación del fabricante de la aeronave",
+      "La autorización del piloto al mando"
+    ]
+  },
+  {
+    "front": "¿Quién es responsable del mantenimiento de la aeronave?",
+    "back": "El propietario de la aeronave.",
+    "wrongOptions": [
+      "El piloto al mando",
+      "La organización de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Bajo qué condiciones se puede realizar un vuelo con una aeronave?",
+    "back": "La aeronave debe mantener las condiciones de aeronavegabilidad.",
+    "wrongOptions": [
+      "La aeronave debe estar en vuelo de prueba",
+      "El piloto debe tener licencia de vuelo comercial"
+    ]
+  },
+  {
+    "front": "¿Qué ocurre con las responsabilidades del propietario en caso de arrendamiento de la aeronave?",
+    "back": "Se transfieren al arrendatario si está estipulado en el documento de matrícula o en el contrato de arrendamiento.",
+    "wrongOptions": [
+      "Se mantienen en el propietario original",
+      "Se comparten entre el propietario y el arrendatario"
+    ]
+  },
+  {
+    "front": "¿Quién es responsable de la inspección previa al vuelo en aeronaves de compañías aéreas?",
+    "back": "El piloto al mando o el operador.",
+    "wrongOptions": [
+      "La organización de mantenimiento aprobada",
+      "El propietario de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer en caso de anomalías en la aeronave?",
+    "back": "Informar al Estado de matrícula y a la Organización Responsable del diseño.",
+    "wrongOptions": [
+      "Ignorar la anomalía",
+      "Realizar un vuelo de prueba inmediato"
+    ]
+  },
+  {
+    "front": "¿Cuál es el plazo para informar sobre una anomalía?",
+    "back": "72 horas desde que se tiene conocimiento de la anomalía.",
+    "wrongOptions": [
+      "24 horas",
+      "Una semana"
+    ]
+  },
+  {
+    "front": "¿Qué tareas son parte del mantenimiento de la aeronavegabilidad?",
+    "back": "Realización de inspecciones prevuelo y rectificación de defectos.",
+    "wrongOptions": [
+      "Cambio de piloto",
+      "Reabastecimiento de combustible"
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir el programa de mantenimiento aprobado?",
+    "back": "Frecuencia, tareas y programa de fiabilidad.",
+    "wrongOptions": [
+      "Costos de mantenimiento",
+      "Número de vuelos realizados"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacerse con las directivas de aeronavegabilidad?",
+    "back": "Deben aplicarse salvo que la Autoridad especifique otra cosa.",
+    "wrongOptions": [
+      "Pueden ignorarse si no afectan la seguridad",
+      "Deben ser revisadas cada año"
+    ]
+  },
+  {
+    "front": "¿Cuánto tiempo se tiene para actualizar los registros de mantenimiento realizados?",
+    "back": "Máximo 30 días.",
+    "wrongOptions": [
+      "15 días",
+      "60 días"
+    ]
+  },
+  {
+    "front": "¿Qué información debe contener el registro de mantenimiento?",
+    "back": "Estado de directivas de aeronavegabilidad, modificaciones y reparaciones realizadas.",
+    "wrongOptions": [
+      "Número de vuelos realizados",
+      "Costos de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Cuánto tiempo deben archivarse los registros de mantenimiento?",
+    "back": "Mínimo 3 años desde la última anotación.",
+    "wrongOptions": [
+      "1 año",
+      "5 años"
+    ]
+  },
+  {
+    "front": "¿Qué se transfiere al nuevo propietario o operador al transferir la aeronave?",
+    "back": "El registro técnico del operador.",
+    "wrongOptions": [
+      "El certificado de piloto",
+      "La licencia de vuelo"
+    ]
+  },
+  {
+    "front": "¿Quién debe realizar el mantenimiento de la aeronave?",
+    "back": "Personal cualificado.",
+    "wrongOptions": [
+      "Cualquier persona con experiencia",
+      "El piloto de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué datos de mantenimiento deben utilizarse para realizar actividades de mantenimiento?",
+    "back": "Cualquier requisito aplicable, procedimiento o norma emitida por la autoridad competente.",
+    "wrongOptions": [
+      "Cualquier dato disponible en internet",
+      "Recomendaciones de otros pilotos"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de datos se deben utilizar para la realización de actividades de mantenimiento?",
+    "back": "Datos de mantenimiento aplicables.",
+    "wrongOptions": [
+      "Datos de mantenimiento obsoletos.",
+      "Datos de mantenimiento no relacionados."
+    ]
+  },
+  {
+    "front": "¿Quién debe realizar las actividades de mantenimiento?",
+    "back": "Personal cualificado.",
+    "wrongOptions": [
+      "Cualquier persona sin formación.",
+      "Solo el piloto al mando."
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer después de realizar las tareas de mantenimiento?",
+    "back": "Proceder a una verificación general.",
+    "wrongOptions": [
+      "Ignorar la verificación.",
+      "Realizar un informe de vuelo."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacerse con cualquier defecto que afecte a la seguridad de la aeronave?",
+    "back": "Rectificarlo antes del vuelo.",
+    "wrongOptions": [
+      "Reportarlo al pasajero.",
+      "Esperar a la próxima revisión."
+    ]
+  },
+  {
+    "front": "¿Qué se debe verificar antes de instalar un elemento en la aeronave?",
+    "back": "Que es apto y que se han aplicado las últimas directivas de aeronavegabilidad.",
+    "wrongOptions": [
+      "Que el elemento sea de un modelo similar.",
+      "Que el elemento esté en la lista de deseos."
+    ]
+  },
+  {
+    "front": "¿Qué tipo de componentes se pueden instalar en la aeronave?",
+    "back": "Componentes standards que estén verificados.",
+    "wrongOptions": [
+      "Cualquier componente disponible.",
+      "Componentes sin verificación de trazabilidad."
+    ]
+  },
+  {
+    "front": "¿Cuándo se considera un elemento como 'fuera de servicio'?",
+    "back": "Cuando se ha llegado al fin de su vida útil definida.",
+    "wrongOptions": [
+      "Cuando se encuentra en mantenimiento.",
+      "Cuando se ha limpiado."
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer con los elementos fuera de servicio?",
+    "back": "Identificarlos y almacenarlos adecuadamente.",
+    "wrongOptions": [
+      "Dejarlos en el área de trabajo.",
+      "Utilizarlos como repuestos."
+    ]
+  },
+  {
+    "front": "¿Qué debe contener el manual de la organización de mantenimiento?",
+    "back": "Una declaración firmada por el gerente responsable.",
+    "wrongOptions": [
+      "Una lista de precios de servicios.",
+      "Un catálogo de productos."
+    ]
+  },
+  {
+    "front": "¿Qué instalaciones debe garantizar la organización de mantenimiento?",
+    "back": "Instalaciones adecuadas para todos los trabajos previstos.",
+    "wrongOptions": [
+      "Instalaciones sin separación de áreas.",
+      "Instalaciones sin control de acceso."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer la organización respecto al personal?",
+    "back": "Nombrar a un gerente responsable con autoridad.",
+    "wrongOptions": [
+      "No es necesario nombrar a nadie.",
+      "Cualquiera puede ser gerente sin requisitos."
+    ]
+  },
+  {
+    "front": "¿Qué se requiere del personal que realiza tareas especializadas?",
+    "back": "Estar cualificado con arreglo a una norma reconocida oficialmente.",
+    "wrongOptions": [
+      "No se requiere cualificación.",
+      "Pueden ser cualquier empleado de la organización."
+    ]
+  },
+  {
+    "front": "¿Qué debe demostrar el personal certificador?",
+    "back": "Experiencia relevante de mantenimiento en los dos años previos.",
+    "wrongOptions": [
+      "Solo formación teórica.",
+      "Experiencia en otros campos no relacionados."
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer antes de comenzar los trabajos de mantenimiento?",
+    "back": "Acuerdo sobre una orden de trabajo escrita con el cliente.",
+    "wrongOptions": [
+      "Comenzar sin acuerdo previo.",
+      "Realizar un presupuesto verbal."
+    ]
+  },
+  {
+    "front": "¿Qué se expide al finalizar todas las tareas de mantenimiento de una aeronave?",
+    "back": "Un certificado de aptitud para el servicio de la aeronave.",
+    "wrongOptions": [
+      "Un informe de inspección.",
+      "Una lista de tareas pendientes."
+    ]
+  },
+  {
+    "front": "¿Qué se expide al finalizar todas las tareas de mantenimiento de un elemento?",
+    "back": "Un certificado de aptitud para el servicio del elemento.",
+    "wrongOptions": [
+      "Un recibo de pago.",
+      "Una nota de entrega."
+    ]
+  },
+  {
+    "front": "¿Qué debe mantener la organización respecto a las calibraciones?",
+    "back": "Registros de dichas calibraciones y de la norma aplicada.",
+    "wrongOptions": [
+      "Solo registros de las calibraciones",
+      "Registros de las normas aplicadas"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer la organización con los elementos recibidos?",
+    "back": "Inspeccionar, clasificar y separar debidamente todos los elementos recibidos.",
+    "wrongOptions": [
+      "Solo inspeccionar los elementos",
+      "Clasificar los elementos sin separarlos"
+    ]
+  },
+  {
+    "front": "¿Qué se debe acordar antes de comenzar los trabajos de mantenimiento?",
+    "back": "Una orden de trabajo escrita que fije las tareas de mantenimiento.",
+    "wrongOptions": [
+      "Un acuerdo verbal sobre las tareas",
+      "Un contrato de mantenimiento a largo plazo"
+    ]
+  },
+  {
+    "front": "¿Qué se expide al finalizar todas las tareas de mantenimiento de una aeronave?",
+    "back": "Un certificado de aptitud para el servicio de la aeronave.",
+    "wrongOptions": [
+      "Un informe de mantenimiento",
+      "Un certificado de revisión de aeronavegabilidad"
+    ]
+  },
+  {
+    "front": "¿Qué se expide al finalizar el mantenimiento de un elemento de aeronave?",
+    "back": "Un certificado de aptitud para el servicio de acuerdo con M.A.802, (Formulario EASA 1).",
+    "wrongOptions": [
+      "Un certificado de aeronavegabilidad",
+      "Un informe de estado del componente"
+    ]
+  },
+  {
+    "front": "¿Qué es el CRS en el contexto de mantenimiento de aeronaves?",
+    "back": "Es el certificado de aptitud para aeronaves.",
+    "wrongOptions": [
+      "Es un tipo de licencia de piloto",
+      "Es un manual de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Qué debe contener la memoria de gestión del mantenimiento de la aeronavegabilidad?",
+    "back": "Una declaración firmada por el gerente responsable confirmando el cumplimiento de la normativa.",
+    "wrongOptions": [
+      "Solo el organigrama de la organización",
+      "Una lista de todos los aviones mantenidos"
+    ]
+  },
+  {
+    "front": "¿Cuántos años de experiencia se requieren para el personal de revisión de la aeronavegabilidad?",
+    "back": "Al menos cinco años de experiencia en mantenimiento de la aeronavegabilidad.",
+    "wrongOptions": [
+      "Tres años de experiencia",
+      "Siete años de experiencia"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer la organización aprobada de gestión del mantenimiento de la aeronavegabilidad con el programa de mantenimiento?",
+    "back": "Crear y supervisar un programa de mantenimiento para la aeronave gestionada.",
+    "wrongOptions": [
+      "Solo presentar el programa a la autoridad",
+      "No es necesario supervisar el programa"
+    ]
+  },
+  {
+    "front": "¿Qué se debe verificar en la revisión de la aeronavegabilidad?",
+    "back": "Que las horas de vuelo de la célula, el motor y la hélice se han registrado correctamente.",
+    "wrongOptions": [
+      "Que el piloto esté presente",
+      "Que la aeronave esté en vuelo"
+    ]
+  },
+  {
+    "front": "¿Qué facultades tiene una organización aprobada de gestión del mantenimiento de la aeronavegabilidad?",
+    "back": "Gestionar el mantenimiento de la aeronavegabilidad de aeronaves de transporte aéreo no comercial.",
+    "wrongOptions": [
+      "Realizar vuelos comerciales",
+      "Emitir licencias de piloto"
+    ]
+  },
+  {
+    "front": "¿Qué se debe expedir previo al vuelo tras finalizar cualquier tarea de mantenimiento?",
+    "back": "Un certificado de aptitud para el servicio.",
+    "wrongOptions": [
+      "Un informe de mantenimiento",
+      "Una autorización de vuelo"
+    ]
+  },
+  {
+    "front": "¿Qué ocurre si un certificado de revisión de aeronavegabilidad queda invalidado?",
+    "back": "La aeronave no deberá volar.",
+    "wrongOptions": [
+      "La aeronave puede volar bajo ciertas condiciones",
+      "El certificado se puede revalidar automáticamente"
+    ]
+  },
+  {
+    "front": "¿Qué se requiere para que un certificado de aeronavegabilidad sea válido?",
+    "back": "Realizar periódicamente una revisión de aeronavegabilidad de la aeronave y sus registros de mantenimiento.",
+    "wrongOptions": [
+      "Solo tener un registro de mantenimiento",
+      "No es necesario realizar revisiones periódicas"
+    ]
+  },
+  {
+    "front": "¿Qué debe garantizar la organización respecto a los defectos descubiertos durante el mantenimiento?",
+    "back": "Que sean corregidos por una organización de mantenimiento debidamente aprobada.",
+    "wrongOptions": [
+      "Que se ignoren si no son graves",
+      "Que se reporten a la autoridad sin corrección"
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir la memoria de gestión del mantenimiento de la aeronavegabilidad?",
+    "back": "Un organigrama de la organización que refleje las relaciones de responsabilidad.",
+    "wrongOptions": [
+      "Solo la lista del personal",
+      "Un resumen de las aeronaves mantenidas"
+    ]
+  },
+  {
+    "front": "¿Qué se debe garantizar respecto a la declaración de masa y centrado de la aeronave?",
+    "back": "Que refleje el estado actual de la aeronave.",
+    "wrongOptions": [
+      "Que sea la misma que la anterior",
+      "Que no se requiere actualización"
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer con las modificaciones y reparaciones en la aeronave?",
+    "back": "Gestionar la aprobación de las modificaciones y reparaciones.",
+    "wrongOptions": [
+      "Realizarlas sin aprobación",
+      "Solo registrarlas sin aprobación"
+    ]
+  },
+  {
+    "front": "¿Qué sucede con un certificado de revisión de aeronavegabilidad si se suspende o revoca?",
+    "back": "Queda invalidado.",
+    "wrongOptions": [
+      "Se convierte en provisional.",
+      "Se extiende automáticamente."
+    ]
+  },
+  {
+    "front": "¿Cuál de las siguientes condiciones invalidaría el certificado de aeronavegabilidad de una aeronave?",
+    "back": "La aeronave no está en el registro de aeronaves de un Estado miembro.",
+    "wrongOptions": [
+      "La aeronave ha sido reparada recientemente.",
+      "La aeronave tiene un nuevo piloto."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacerse si el mantenimiento de la aeronave no cumple los requisitos establecidos?",
+    "back": "La aeronave no deberá volar.",
+    "wrongOptions": [
+      "La aeronave puede volar con restricciones.",
+      "Se debe realizar una revisión de seguridad."
+    ]
+  },
+  {
+    "front": "¿Qué ocurre si la operación de la aeronave excede los límites del manual de vuelo aprobado?",
+    "back": "La aeronave no deberá volar a menos que se adopten medidas apropiadas.",
+    "wrongOptions": [
+      "La aeronave puede volar si se informa a la autoridad.",
+      "La aeronave puede volar si se realiza una revisión rápida."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer el solicitante al importar una aeronave a un Estado miembro de la UE?",
+    "back": "Solicitar al Estado miembro de matrícula la expedición de un nuevo certificado de aeronavegabilidad.",
+    "wrongOptions": [
+      "Realizar un vuelo de prueba inmediato.",
+      "Registrar la aeronave en el país de origen."
+    ]
+  },
+  {
+    "front": "¿Qué incluye el mantenimiento en línea?",
+    "back": "Solución de problemas y rectificación de defectos.",
+    "wrongOptions": [
+      "Revisiones profundas y extensas.",
+      "Mantenimiento de la estructura interna."
+    ]
+  },
+  {
+    "front": "¿Qué se considera mantenimiento base?",
+    "back": "Actividades que no cumplen con los criterios de mantenimiento en línea.",
+    "wrongOptions": [
+      "Cualquier tipo de mantenimiento menor.",
+      "Mantenimiento realizado por el piloto."
+    ]
+  },
+  {
+    "front": "¿Qué se requiere para la aprobación de una organización certificada según la Parte 145?",
+    "back": "Especificar en su memoria el alcance de los trabajos para los que solicita la aprobación.",
+    "wrongOptions": [
+      "Tener un número mínimo de empleados.",
+      "Contar con un hangar propio."
+    ]
+  },
+  {
+    "front": "¿Qué se debe demostrar sobre el hangar donde se realiza el mantenimiento?",
+    "back": "La suficiencia del espacio del hangar para llevar a cabo los planes de mantenimiento.",
+    "wrongOptions": [
+      "Que el hangar esté ubicado en una zona turística.",
+      "Que el hangar tenga acceso a internet."
+    ]
+  },
+  {
+    "front": "¿Qué condiciones deben cumplir las instalaciones de almacenamiento de componentes de aeronaves?",
+    "back": "Deben estar limpias, bien ventiladas y mantenidas a una temperatura constante.",
+    "wrongOptions": [
+      "Deben ser de fácil acceso para el público.",
+      "Deben estar ubicadas en el exterior del hangar."
+    ]
+  },
+  {
+    "front": "¿Quién es normalmente el gerente responsable en una organización de mantenimiento?",
+    "back": "El líder ejecutivo que aprueba la organización de mantenimiento.",
+    "wrongOptions": [
+      "Un técnico de mantenimiento.",
+      "Un piloto de la aeronave."
+    ]
+  },
+  {
+    "front": "¿Cuál es la responsabilidad del gerente de mantenimiento base?",
+    "back": "Asegurar que todos los requisitos de mantenimiento son llevados a cabo en el hangar.",
+    "wrongOptions": [
+      "Realizar todos los vuelos de prueba.",
+      "Contratar a nuevos empleados."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer el gerente de la línea de mantenimiento?",
+    "back": "Asegurar que todo el mantenimiento requerido en la línea cumple con los estándares específicos.",
+    "wrongOptions": [
+      "Realizar el mantenimiento de la base.",
+      "Supervisar las operaciones de vuelo."
+    ]
+  },
+  {
+    "front": "¿Qué se requiere para que las instalaciones de mantenimiento sean adecuadas?",
+    "back": "La iluminación debe garantizar que las tareas de inspección y mantenimiento puedan realizarse de forma efectiva.",
+    "wrongOptions": [
+      "Las instalaciones deben estar decoradas.",
+      "Deben tener acceso a servicios de catering."
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir el mantenimiento programado?",
+    "back": "Inspecciones visuales que detecten condiciones o discrepancias obvias.",
+    "wrongOptions": [
+      "Revisiones profundas cada seis meses.",
+      "Pruebas de vuelo regulares."
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer si se encuentra un defecto durante el mantenimiento base?",
+    "back": "Enviar el defecto para ver si cumple con los estándares de diseño y seguridad.",
+    "wrongOptions": [
+      "Ignorarlo si no es grave.",
+      "Repararlo sin más análisis."
+    ]
+  },
+  {
+    "front": "¿Cuál es la responsabilidad del gerente del mantenimiento base?",
+    "back": "Asegurar que todos los requisitos de mantenimiento son llevados a cabo en el hangar.",
+    "wrongOptions": [
+      "Asegurar que todos los requisitos de mantenimiento son llevados a cabo en la línea de vuelo.",
+      "Asegurar que todos los requisitos de mantenimiento son llevados a cabo en el taller."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacerse con cualquier defecto de rectificación hallado durante el mantenimiento base?",
+    "back": "Debe ser enviado para verificar si cumple con los estándares de diseño y seguridad especificados en 145.A.65.",
+    "wrongOptions": [
+      "Debe ser ignorado si no afecta la seguridad.",
+      "Debe ser reparado inmediatamente sin verificación."
+    ]
+  },
+  {
+    "front": "¿Qué responsabilidad tiene el gerente de la línea de mantenimiento?",
+    "back": "Asegurar que todo el mantenimiento requerido en la línea de mantenimiento cumple con los estándares específicos en 145.A.71.",
+    "wrongOptions": [
+      "Asegurar que todo el mantenimiento requerido en el taller cumple con los estándares de 145.A.65.",
+      "Asegurar que todos los empleados son contratados adecuadamente."
+    ]
+  },
+  {
+    "front": "¿Qué puede hacer la organización respecto a los cargos de gerentes?",
+    "back": "Puede contratar cualquier persona para los cargos anteriores, pero debe estar identificada por la autoridad.",
+    "wrongOptions": [
+      "No puede contratar a nadie para esos cargos.",
+      "Debe contratar solo a personas con experiencia previa en la organización."
+    ]
+  },
+  {
+    "front": "¿Qué se requiere cuando la organización elige poner gerentes para todos o combinar algunos de los identificados en la Parte 145?",
+    "back": "Se requiere que estos managers hagan reportes al gerente responsable de todos.",
+    "wrongOptions": [
+      "No se requiere hacer reportes si son gerentes combinados.",
+      "Pueden reportar a cualquier departamento sin restricciones."
+    ]
+  },
+  {
+    "front": "¿Qué incluye el cumplimiento monitorizado según 145.A.30?",
+    "back": "Incluye los requisitos de corrección y las acciones correctivas necesarias por el mánager responsable.",
+    "wrongOptions": [
+      "Solo incluye la supervisión de los empleados.",
+      "Solo incluye la verificación de herramientas y equipos."
+    ]
+  },
+  {
+    "front": "¿Cuál es el papel del gerente de cumplimiento monitorizado?",
+    "back": "Asegurar que las actividades de las organizaciones están monitorizadas para el cumplimiento de los requerimientos obligatorios.",
+    "wrongOptions": [
+      "Asegurar que todos los empleados están contratados correctamente.",
+      "Asegurar que se realizan auditorías externas."
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer el gerente de cumplimiento monitorizado respecto al programa de cumplimiento?",
+    "back": "Asegurar que se implementa correctamente, se mantiene y se revisa constantemente.",
+    "wrongOptions": [
+      "Asegurar que no se realizan cambios en el programa.",
+      "Asegurar que solo se revisa una vez al año."
+    ]
+  },
+  {
+    "front": "¿Qué debe tener el gerente de cumplimiento monitorizado en cuanto a acceso?",
+    "back": "Debe tener acceso a todas las partes de la organización y, si es necesario, a cualquier organización subcontratada.",
+    "wrongOptions": [
+      "No necesita acceso a las partes de la organización.",
+      "Solo necesita acceso a la línea de mantenimiento."
+    ]
+  },
+  {
+    "front": "¿Qué significa tener suficientes empleados en la organización?",
+    "back": "Significa que al menos la mitad puede ejercer el mantenimiento en cada taller, hangar o línea de vuelo en cualquier turno.",
+    "wrongOptions": [
+      "Significa que todos los empleados deben ser de jornada completa.",
+      "Significa que solo se necesita un empleado por taller."
+    ]
+  },
+  {
+    "front": "¿Qué deben considerar las horas de trabajo del mantenimiento?",
+    "back": "Deben tener en cuenta todas las actividades que salgan del alcance de la Parte 145.",
+    "wrongOptions": [
+      "Deben ignorar las ausencias programadas.",
+      "Deben considerar solo las horas de trabajo de los gerentes."
+    ]
+  },
+  {
+    "front": "¿Cómo deben ser las horas de mantenimiento en relación a la carga de trabajo?",
+    "back": "Deben anticiparse a la carga de trabajo, excepto cuando no se puede predecir.",
+    "wrongOptions": [
+      "Deben ser fijas y no cambiar nunca.",
+      "Deben ser ajustadas solo al final del mes."
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir el horario de la función del cumplimiento de la monitorización?",
+    "back": "Debe ser suficiente para cumplir los requerimientos de 145.A.65, teniendo en cuenta AMC2 y AMC3.",
+    "wrongOptions": [
+      "Debe ser mínimo y no considerar los requerimientos.",
+      "Debe ser solo para el mantenimiento base."
+    ]
+  },
+  {
+    "front": "¿Con qué frecuencia debe revisarse el horario de trabajo del plan de mantenimiento?",
+    "back": "Debe ser revisado cada 3 meses y actualizado cuando sea necesario.",
+    "wrongOptions": [
+      "Debe revisarse solo una vez al año.",
+      "No necesita revisarse si no hay cambios."
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer en caso de una desviación significativa del horario de trabajo del mantenimiento?",
+    "back": "Debe ser reportado al gerente del cumplimiento monitorizado, el mánager de seguridad y el mánager responsable.",
+    "wrongOptions": [
+      "No se necesita reportar si es menor del 25%.",
+      "Se debe ignorar si no afecta la seguridad."
+    ]
+  },
+  {
+    "front": "¿Qué debe tener la organización en cuanto a equipos y herramientas?",
+    "back": "Debe disponer de todos los equipos, herramientas y material necesarios para realizar las actividades.",
+    "wrongOptions": [
+      "Solo necesita herramientas básicas.",
+      "No necesita herramientas si tiene personal suficiente."
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer con los datos de mantenimiento?",
+    "back": "Todos los datos de mantenimiento serán guardados para las posteriores actividades de mantenimiento.",
+    "wrongOptions": [
+      "No es necesario guardar los datos si no hay problemas.",
+      "Solo se deben guardar los datos de mantenimiento recientes."
+    ]
+  },
+  {
+    "front": "¿Qué debe establecer la organización respecto a los procedimientos de mantenimiento?",
+    "back": "Debe garantizar que, si algún procedimiento es inexacto, se registre y se notifique al autor de los datos de mantenimiento.",
+    "wrongOptions": [
+      "No es necesario notificar si hay errores menores.",
+      "Los procedimientos no necesitan ser revisados."
+    ]
+  },
+  {
+    "front": "¿Cuánto tiempo debe guardar la organización los registros de mantenimiento?",
+    "back": "Durante tres años desde la fecha en que la organización calificó como aptos para el servicio de la aeronave.",
+    "wrongOptions": [
+      "Solo un año.",
+      "Cinco años como mínimo."
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir la política de seguridad y calidad de la organización?",
+    "back": "Debe establecer procedimientos que tengan en cuenta los factores humanos y el rendimiento humano para garantizar buenas prácticas de mantenimiento.",
+    "wrongOptions": [
+      "No necesita incluir procedimientos específicos.",
+      "Solo debe enfocarse en la seguridad física de los empleados."
+    ]
+  },
+  {
+    "front": "¿Qué es la memoria de la organización de mantenimiento?",
+    "back": "Es un documento que especifica el alcance de los trabajos para los que se solicita la aprobación y cómo la organización cumplirá lo dispuesto en la Parte 145.",
+    "wrongOptions": [
+      "Es un documento que solo contiene los nombres de los empleados.",
+      "Es un documento que no necesita ser actualizado."
+    ]
+  },
+  {
+    "front": "¿Qué procedimientos debe seguir la autoridad competente según 145.B.01?",
+    "back": "Procedimientos administrativos para la concesión, prórroga, modificación, suspensión o revocación de aprobaciones de organizaciones de mantenimiento.",
+    "wrongOptions": [
+      "Procedimientos para contratar nuevos empleados.",
+      "Procedimientos para auditar a las organizaciones de mantenimiento."
+    ]
+  },
+  {
+    "front": "¿Qué es la memoria de la organización de mantenimiento según el punto 145.A.30?",
+    "back": "Es un documento que contiene el mantenimiento especificando el alcance de los trabajos para los que se solicita aprobación y demuestra cómo la organización cumplirá con la Parte 145.",
+    "wrongOptions": [
+      "Un informe financiero de la organización",
+      "Un manual de operaciones de vuelo"
+    ]
+  },
+  {
+    "front": "¿Cuándo debe ser modificada la memoria de la organización de mantenimiento?",
+    "back": "Cuando sea necesario para que contenga siempre una descripción actualizada de la organización.",
+    "wrongOptions": [
+      "Cada año sin excepción",
+      "Solo cuando cambie la dirección de la organización"
+    ]
+  },
+  {
+    "front": "¿Quién debe aprobar la memoria y sus modificaciones?",
+    "back": "La autoridad competente.",
+    "wrongOptions": [
+      "El director de la organización",
+      "Los empleados de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Qué establece la sección B del procedimiento para las autoridades competentes?",
+    "back": "Los procedimientos administrativos que debe seguir la autoridad competente para la concesión, prórroga, modificación, suspensión o revocación de aprobaciones de organizaciones de mantenimiento.",
+    "wrongOptions": [
+      "Las normas de seguridad en el mantenimiento",
+      "Los requisitos de formación del personal"
+    ]
+  },
+  {
+    "front": "¿Cuál es la responsabilidad de la autoridad competente según 145.B.10?",
+    "back": "Expedir, prorrogar, modificar, suspender o revocar una aprobación de mantenimiento.",
+    "wrongOptions": [
+      "Realizar el mantenimiento de aeronaves",
+      "Emitir licencias de piloto"
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir la estructura organizativa de la autoridad competente?",
+    "back": "Procedimientos documentados.",
+    "wrongOptions": [
+      "Un equipo de mantenimiento",
+      "Un departamento de ventas"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de formación debe recibir el personal relacionado con aprobaciones?",
+    "back": "Formación continua sobre la Parte 145.",
+    "wrongOptions": [
+      "Formación en ventas",
+      "Formación en gestión de recursos humanos"
+    ]
+  },
+  {
+    "front": "¿Qué categorías de licencia de mantenimiento de aeronaves se mencionan en la Parte 66?",
+    "back": "Categoría A, B1, B2 y C.",
+    "wrongOptions": [
+      "Categoría D, E y F",
+      "Categoría A, B y C"
+    ]
+  },
+  {
+    "front": "¿Qué permite hacer una licencia de mantenimiento de aeronaves de categoría A?",
+    "back": "Emitir certificados de aptitud para el servicio después de trabajos secundarios de mantenimiento programado de línea y de rectificaciones de defectos sencillos.",
+    "wrongOptions": [
+      "Realizar mantenimiento mayor en aeronaves",
+      "Emitir licencias de piloto"
+    ]
+  },
+  {
+    "front": "¿Qué incluye la licencia de categoría B1?",
+    "back": "Emitir certificados de aptitud para el servicio después de trabajos de mantenimiento en la estructura de la aeronave, el grupo motopropulsor y sistemas mecánicos y eléctricos.",
+    "wrongOptions": [
+      "Solo trabajos en la cabina de pilotaje",
+      "Solo trabajos en los motores de pistón"
+    ]
+  },
+  {
+    "front": "¿Qué permite hacer una licencia de mantenimiento de aeronaves de categoría B2?",
+    "back": "Emitir certificados de aptitud para el servicio después de trabajos de mantenimiento de sistemas eléctricos y de aviónica.",
+    "wrongOptions": [
+      "Realizar mantenimiento estructural",
+      "Emitir certificados de piloto"
+    ]
+  },
+  {
+    "front": "¿Qué facultades tiene un titular de una licencia de categoría C?",
+    "back": "Emitir certificados de aptitud para el servicio después de trabajos de mantenimiento en la aeronave en su totalidad en una organización de la parte 145.",
+    "wrongOptions": [
+      "Realizar solo mantenimiento de línea",
+      "Emitir licencias de mantenimiento para otros técnicos"
+    ]
+  },
+  {
+    "front": "¿Cuáles son las limitaciones para ejercer las facultades de certificación?",
+    "back": "Cumplir requisitos de la parte M y/o de la parte 145, tener experiencia reciente en mantenimiento y ser capaz de comunicarse en el idioma de la documentación técnica.",
+    "wrongOptions": [
+      "Tener un título universitario en ingeniería",
+      "Ser empleado de la organización de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Cuántos años de experiencia se requieren para la categoría A si no se tiene formación técnica relevante?",
+    "back": "Tres años de experiencia práctica en el mantenimiento de aeronaves operativas.",
+    "wrongOptions": [
+      "Un año de experiencia",
+      "Cinco años de experiencia"
+    ]
+  },
+  {
+    "front": "¿Cuántos años de experiencia se requieren para la categoría B2 si no se tiene formación técnica relevante?",
+    "back": "Cinco años de experiencia práctica en el mantenimiento de aeronaves operativas.",
+    "wrongOptions": [
+      "Tres años de experiencia",
+      "Dos años de experiencia"
+    ]
+  },
+  {
+    "front": "¿Qué experiencia se requiere para la categoría C en relación a grandes aeronaves?",
+    "back": "Tres años de experiencia ejerciendo facultades de categorías B1.1, B1.3 o B2 en aeronaves de gran tamaño.",
+    "wrongOptions": [
+      "Un año de experiencia en mantenimiento de línea",
+      "Cinco años de experiencia en aviones pequeños"
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir el acuerdo de mantenimiento de la aeronave?",
+    "back": "La matrícula de la aeronave, el tipo de aeronave, el número de serie y detalles del propietario o arrendatario.",
+    "wrongOptions": [
+      "El historial de vuelos de la aeronave",
+      "Los costos de mantenimiento estimados"
+    ]
+  },
+  {
+    "front": "¿Cuál es una de las obligaciones de la organización aprobada en el acuerdo de mantenimiento?",
+    "back": "Crear un programa de mantenimiento para la aeronave que incluya cualquier programa de fiabilidad desarrollado.",
+    "wrongOptions": [
+      "Realizar auditorías financieras",
+      "Contratar personal de limpieza"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer la organización aprobada respecto a las directivas de aeronavegabilidad?",
+    "back": "Asegurarse de que se respeten todas las directivas de aeronavegabilidad aplicables.",
+    "wrongOptions": [
+      "Ignorar las directivas si no son relevantes",
+      "Solo aplicar las directivas en caso de accidente"
+    ]
+  },
+  {
+    "front": "¿Qué se debe tramitar antes de realizar modificaciones en la aeronave?",
+    "back": "La aprobación de todas y cada una de las modificaciones de acuerdo con la parte 21.",
+    "wrongOptions": [
+      "La aprobación de los propietarios de la aeronave",
+      "La aprobación de la tripulación de vuelo"
+    ]
+  },
+  {
+    "front": "¿Cuál es la responsabilidad principal de una organización de mantenimiento aprobada?",
+    "back": "Encargarse de que se respeten todas las directivas de aeronavegabilidad aplicables.",
+    "wrongOptions": [
+      "Realizar modificaciones sin aprobación",
+      "Vender aeronaves sin autorización"
+    ]
+  },
+  {
+    "front": "¿Qué debe garantizar una organización de mantenimiento aprobada respecto a los defectos descubiertos?",
+    "back": "Corregir todos los defectos descubiertos durante el mantenimiento programado o notificados por el propietario.",
+    "wrongOptions": [
+      "Ignorar los defectos menores",
+      "Notificar a las autoridades sin corregir los defectos"
+    ]
+  },
+  {
+    "front": "¿Qué se debe coordinar en el mantenimiento programado?",
+    "back": "La aplicación de directivas de aeronavegabilidad, la sustitución de piezas con vida útil limitada y los requisitos de inspección de elementos.",
+    "wrongOptions": [
+      "La venta de aeronaves",
+      "La capacitación del personal"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer la organización de mantenimiento aprobada cada vez que la aeronave deba ser llevada a mantenimiento?",
+    "back": "Informar al propietario.",
+    "wrongOptions": [
+      "Realizar el mantenimiento sin aviso",
+      "Vender la aeronave"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función de tramitar la aprobación de modificaciones en la aeronave?",
+    "back": "Asegurarse de que todas las modificaciones se realicen de acuerdo con la parte 21 antes de llevarse a cabo.",
+    "wrongOptions": [
+      "Realizar modificaciones sin aprobación",
+      "No es necesario tramitar modificaciones"
+    ]
+  },
+  {
+    "front": "¿Qué debe informar la organización de mantenimiento aprobada a las autoridades de aeronavegabilidad?",
+    "back": "Cada vez que el propietario no presente la aeronave a la organización de mantenimiento aprobada.",
+    "wrongOptions": [
+      "Cada vez que se complete un mantenimiento",
+      "Cada vez que se venda una aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer con los registros técnicos según las obligaciones de mantenimiento?",
+    "back": "Gestionar y archivar todos los registros técnicos.",
+    "wrongOptions": [
+      "Destruir registros antiguos",
+      "No es necesario archivar registros"
+    ]
+  },
+  {
+    "front": "¿Qué conocimiento debe tener el propietario de la aeronave?",
+    "back": "Un conocimiento general del programa de mantenimiento aprobado.",
+    "wrongOptions": [
+      "No es necesario conocer el programa",
+      "Solo debe conocer la parte M"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer el propietario antes de modificar la aeronave?",
+    "back": "Consultar a la organización de mantenimiento aprobada.",
+    "wrongOptions": [
+      "Modificar sin consultar",
+      "Informar a las autoridades directamente"
+    ]
+  },
+  {
+    "front": "¿Qué debe informar el propietario mediante el libro de vuelo?",
+    "back": "Todos los defectos encontrados durante las operaciones.",
+    "wrongOptions": [
+      "Los vuelos realizados",
+      "Los costos de mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Cuál es la responsabilidad del departamento de ingeniería en la organización de mantenimiento?",
+    "back": "Desarrollo de programa de mantenimiento y emisión de tarjetas de mantenimiento.",
+    "wrongOptions": [
+      "Realizar ventas de aeronaves",
+      "Contratar personal sin supervisión"
+    ]
+  },
+  {
+    "front": "¿Qué hace el departamento de planificación en una organización de mantenimiento?",
+    "back": "Planifica y programa las tareas de mantenimiento.",
+    "wrongOptions": [
+      "Ejecuta el mantenimiento",
+      "Realiza modificaciones en la aeronave"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función principal del departamento de entrenamiento?",
+    "back": "Verificar que todas las licencias de mantenimiento del personal estén en vigor.",
+    "wrongOptions": [
+      "Contratar nuevos empleados sin formación",
+      "Realizar mantenimiento en aeronaves"
+    ]
+  },
+  {
+    "front": "¿Qué responsabilidad tiene el departamento de publicaciones?",
+    "back": "Mantener actualizados todos los manuales de mantenimiento y publicaciones.",
+    "wrongOptions": [
+      "Eliminar documentos antiguos",
+      "No es necesario actualizar documentos"
+    ]
+  },
+  {
+    "front": "¿Qué se encarga de hacer el departamento de mantenimiento del hangar?",
+    "back": "Modificaciones y mantenimiento de la aeronave dentro del hangar.",
+    "wrongOptions": [
+      "Realizar mantenimiento en línea",
+      "Vender piezas de aeronaves"
+    ]
+  },
+  {
+    "front": "¿Qué hace el departamento de material y logística?",
+    "back": "Se encarga de las compras de material y almacenamiento de las compras.",
+    "wrongOptions": [
+      "Realiza mantenimiento en aeronaves",
+      "Contrata personal para mantenimiento"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función del departamento de control de calidad?",
+    "back": "Asegurarse de que la calidad del mantenimiento se mantenga según el programa.",
+    "wrongOptions": [
+      "Realizar modificaciones sin control",
+      "No es necesario controlar la calidad"
+    ]
+  },
+  {
+    "front": "¿Qué debe hacer el departamento de evaluación del programa de mantenimiento?",
+    "back": "Asegurar la calidad, control y fiabilidad del programa de mantenimiento.",
+    "wrongOptions": [
+      "Eliminar el programa de mantenimiento",
+      "No es necesario evaluar el programa"
+    ]
+  },
+  {
+    "front": "¿Cuál es el primer paso al recibir un material en el contexto del mantenimiento?",
+    "back": "Comprobar que lo que te han traído es lo que has pedido.",
+    "wrongOptions": [
+      "Evaluar la calidad del material",
+      "Realizar un inventario del material recibido"
+    ]
+  },
+  {
+    "front": "¿Qué aspecto se evalúa en el Programa de mantenimiento relacionado con la calidad?",
+    "back": "Aseguramiento de la calidad.",
+    "wrongOptions": [
+      "Control de costos",
+      "Planificación de recursos"
+    ]
+  },
+  {
+    "front": "¿Cuál es el propósito del control de calidad en el Programa de mantenimiento?",
+    "back": "Asegurarse de que los estándares de calidad se cumplan.",
+    "wrongOptions": [
+      "Aumentar la producción",
+      "Reducir el tiempo de inactividad"
+    ]
+  },
+  {
+    "front": "¿Qué se encarga de verificar la fiabilidad en el Programa de mantenimiento?",
+    "back": "Se encarga de ver que la fiabilidad que se está aplicando se está obteniendo.",
+    "wrongOptions": [
+      "Controlar los costos operativos",
+      "Gestionar el tiempo de trabajo del personal"
+    ]
+  },
+  {
+    "front": "¿Qué hacen los responsables de fiabilidad cuando detectan desviaciones?",
+    "back": "Detectan y avisan de desviaciones.",
+    "wrongOptions": [
+      "Ignoran las desviaciones",
+      "Las registran sin tomar acción"
+    ]
+  },
+  {
+    "front": "¿Qué aspecto de seguridad evalúa el Programa de mantenimiento?",
+    "back": "Se encarga de ver que el programa de mantenimiento es seguro y eficaz.",
+    "wrongOptions": [
+      "La rentabilidad del programa",
+      "La duración del mantenimiento"
+    ]
+  }
+]

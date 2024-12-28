@@ -25,6 +25,7 @@ export default function FlashcardItem({ flashcard, onUpdate }) {
   };
 
   const handleDelete = async () => {
+    console.log('flashcard to delete:', flashcard);
     try {
       const response = await fetch(
         `/api/decks/${flashcard.deckId}/flashcards/${flashcard._id}`,

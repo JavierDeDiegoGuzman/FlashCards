@@ -77,12 +77,16 @@ const checkSavedSession = (deckId) => {
     
     const parsedState = JSON.parse(savedState);
     
-    if (!parsedState.mode || !parsedState.queue) {
+    if (!parsedState.mode || 
+        !Array.isArray(parsedState.queue) || 
+        parsedState.queue.length === 0 || 
+        !parsedState.cardStates) {
       return null;
     }
     
     return parsedState;
   } catch (error) {
+    console.error('Error al verificar la sesión guardada:', error);
     return null;
   }
 };
@@ -168,17 +172,12 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
     const serverFlashcards = await fetchUpdatedFlashcards();
     
     if (!serverFlashcards) {
-      return savedState;
+      return null;
     }
 
+    // Si no hay estado guardado, retornar null en lugar de crear uno nuevo
     if (!savedState) {
-      return {
-        mode: null,
-        queue: serverFlashcards,
-        currentCard: null,
-        completed: 0,
-        cardStates: {}
-      };
+      return null;
     }
 
     const serverFlashcardsMap = new Map(
@@ -189,6 +188,11 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
       const serverVersion = serverFlashcardsMap.get(card._id);
       return serverVersion || card;
     }).filter(card => serverFlashcardsMap.has(card._id));
+
+    // Si después de la sincronización no quedan tarjetas, retornar null
+    if (updatedQueue.length === 0) {
+      return null;
+    }
 
     const updatedCurrentCard = savedState.currentCard 
       ? (serverFlashcardsMap.get(savedState.currentCard._id) || savedState.currentCard)
@@ -222,16 +226,17 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
           const parsedState = JSON.parse(savedState);
           const syncedState = await syncWithServer(parsedState);
           
-          if (syncedState.mode && syncedState.queue) {
+          // Solo establecer el estado si hay una sesión válida
+          if (syncedState && syncedState.mode && syncedState.queue && syncedState.queue.length > 0) {
             setSavedSession(syncedState);
+          } else {
+            setSavedSession(null);
           }
         } catch (error) {
-          const syncedState = await syncWithServer(null);
-          setSavedSession(syncedState);
+          setSavedSession(null);
         }
       } else {
-        const syncedState = await syncWithServer(null);
-        setSavedSession(syncedState);
+        setSavedSession(null);
       }
     };
 
@@ -497,7 +502,7 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
         <h3 className="text-2xl font-bold mb-6">Selecciona el modo de estudio</h3>
         
         <div className="grid gap-4 max-w-md w-full mb-8">
-          {savedSession && (
+          {savedSession && savedSession.queue.length > 0 && (
             <>
               <button
                 onClick={continueSavedSession}

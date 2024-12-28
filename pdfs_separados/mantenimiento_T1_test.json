@@ -1,0 +1,114 @@
+[
+  {
+    "front": "¿Qué se entiende por entropía en el contexto del mantenimiento de sistemas?",
+    "back": "La diferencia entre la perfección deseada y la real en un sistema.",
+    "wrongOptions": [
+      "La cantidad de energía absorbida o cedida por un sistema.",
+      "La probabilidad de que un sistema funcione durante un periodo específico."
+    ]
+  },
+  {
+    "front": "¿Cuál es el objetivo principal de la gestión del mantenimiento?",
+    "back": "Reducir los costes, reducir la entropía y maximizar la fiabilidad.",
+    "wrongOptions": [
+      "Aumentar el número de componentes redundantes.",
+      "Eliminar completamente cualquier tipo de fallo en los sistemas."
+    ]
+  },
+  {
+    "front": "En el mantenimiento preventivo, ¿cuándo se debe realizar este tipo de mantenimiento?",
+    "back": "Cuando los sistemas llegan al umbral de perfección real.",
+    "wrongOptions": [
+      "Cuando se detecta una falla en el sistema.",
+      "Cada vez que se realiza una inspección sin importar el estado del sistema."
+    ]
+  },
+  {
+    "front": "¿Cómo se define la fiabilidad en el contexto de la ingeniería de mantenimiento?",
+    "back": "Probabilidad que un sistema tiene para desarrollar las funciones para las cuales ha sido diseñado durante un periodo específico.",
+    "wrongOptions": [
+      "La cantidad total de energía que consume un sistema durante su operación.",
+      "La durabilidad física de los componentes en condiciones extremas."
+    ]
+  },
+  {
+    "front": "¿Qué caracteriza a los componentes clasificados como 'Hard time' en el mantenimiento?",
+    "back": "'Hard time' incluye componentes con vida limitada que afectan a la seguridad operacional.",
+    "wrongOptions": [
+      "'Hard time' son componentes que solo requieren inspección periódica.",
+      "'Hard time' son aquellos que no necesitan ser reemplazados hasta fallar."
+    ]
+  },
+  {
+    "front": "¿Qué técnica describe observar desde lo general hasta el detalle en el mantenimiento?",
+    "back": "'Top to Down'.",
+    "wrongOptions": [
+      "'Bottom to Top'.",
+      "'General to Specific'."
+    ]
+  },
+  {
+    "front": "¿Cuál es la diferencia entre 'Overhaul' y 'Restore' en términos de mantenimiento?",
+    "back": "'Overhaul' devuelve al componente a su vida útil cero, mientras que 'Restore' aumenta su tiempo de vida sin devolverlo a nuevo.",
+    "wrongOptions": [
+      "'Overhaul' es una reforma menor; 'Restore' es una reparación completa.",
+      "'Overhaul' se realiza solo si hay fallos; 'Restore' se hace independientemente del estado."
+    ]
+  },
+  {
+    "front": "¿Qué representa 'CSO' en el contexto del mantenimiento aeronáutico?",
+    "back": "Cycles Since Overhaul.",
+    "wrongOptions": [
+      "Cycles Since Operation.",
+      "Cycles Scheduled for Overhaul."
+    ]
+  },
+  {
+    "front": "¿Cuál es el propósito de un programa de mantenimiento orientado a tareas?",
+    "back": "Realizar tareas específicas con la finalidad de prevenir fallos.",
+    "wrongOptions": [
+      "Monitorear el consumo de combustible en los motores.",
+      "Reemplazar componentes al azar para garantizar su funcionamiento."
+    ]
+  },
+  {
+    "front": "En términos de mantenimiento, ¿qué caracteriza a los componentes que se encuentran bajo 'Condition Monitoring' (CM)?",
+    "back": "Son componentes que no utilizan Hard Time y On Condition y son de fallo a fallo.",
+    "wrongOptions": [
+      "Son componentes que tienen vida útil indefinida y no requieren inspección.",
+      "Son componentes que deben ser reemplazados cada cierto tiempo independientemente de su estado."
+    ]
+  },
+  {
+    "front": "¿Qué patrón de fallo describe una probabilidad alta al inicio del tiempo que disminuye y luego vuelve a aumentar?",
+    "back": "Patrón descrito en la primera gráfica.",
+    "wrongOptions": [
+      "Patrón descrito en la tercera gráfica.",
+      "Patrón descrito en la quinta gráfica."
+    ]
+  },
+  {
+    "front": "¿Por qué es importante reconocer diferentes patrones de fallo en los sistemas aeronáuticos?",
+    "back": "Para abordar el mantenimiento de forma sistemática y reducir periodos no programados.",
+    "wrongOptions": [
+      "Para aumentar la cantidad de mantenimiento preventivo sin necesidad.",
+      "Para evitar cualquier tipo de monitoreo sobre los sistemas."
+    ]
+  },
+  {
+    "front": "'Airframe System Task', 'Structural Task' y 'Zonal Task' son ejemplos de qué tipo de programas?",
+    "back": "'Orientados a tareas'.",
+    "wrongOptions": [
+      "'Programas de rediseño'.",
+      "'Programas de seguimiento general'."
+    ]
+  },
+  {
+    "front": "'Top to Down' es una técnica que implica qué enfoque en el mantenimiento?",
+    "back": "Observar los componentes o sistemas desde lo general hasta el detalle.",
+    "wrongOptions": [
+      "Observar solo los detalles sin considerar el sistema completo.",
+      "Descomponer un sistema en sus partes más pequeñas sin un orden específico."
+    ]
+  }
+]

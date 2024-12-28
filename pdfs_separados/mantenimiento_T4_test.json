@@ -1,0 +1,546 @@
+[
+  {
+    "front": "¿Cuántos documentos de mantenimiento son mencionados en el texto?",
+    "back": "18 documentos",
+    "wrongOptions": [
+      "12 documentos",
+      "24 documentos"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de documentos son los que se utilizan para identificar y realizar el mantenimiento de aeronaves?",
+    "back": "Documentos del fabricante",
+    "wrongOptions": [
+      "Documentos de la autoridad aeronáutica",
+      "Documentos de los operadores"
+    ]
+  },
+  {
+    "front": "¿Qué característica tienen los documentos de mantenimiento en relación a su aplicación?",
+    "back": "Son documentos estándar aplicables a todas las aeronaves.",
+    "wrongOptions": [
+      "Son documentos específicos para cada modelo de aeronave.",
+      "Son documentos opcionales que no se requieren para el mantenimiento."
+    ]
+  },
+  {
+    "front": "¿Qué manual proporciona información sobre el funcionamiento de cada sistema y subsistema de la aeronave?",
+    "back": "AMM (Aircraft Maintenance Manual)",
+    "wrongOptions": [
+      "CMM (Component Maintenance Manual)",
+      "FIM (Fault Isolation Manual)"
+    ]
+  },
+  {
+    "front": "¿Cómo se organiza la información en el AMM?",
+    "back": "Con capítulos ATA.",
+    "wrongOptions": [
+      "Por secciones temáticas",
+      "En un formato cronológico"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función principal del CMM (Component Maintenance Manual)?",
+    "back": "Describir el proceso de mantenimiento de un componente determinado.",
+    "wrongOptions": [
+      "Proporcionar información sobre la operación de la aeronave",
+      "Listar todos los componentes de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué es el SFE (Seller Furnished Equipment)?",
+    "back": "Lista que proporciona el fabricante para elegir los componentes.",
+    "wrongOptions": [
+      "Lista de componentes que el comprador debe proporcionar",
+      "Lista de componentes que no están disponibles"
+    ]
+  },
+  {
+    "front": "¿Qué documento acompaña a cualquier componente construido por el fabricante del fuselaje?",
+    "back": "Manual de Mantenimiento de Componentes (MMC)",
+    "wrongOptions": [
+      "Manual de Operación de Aeronaves (AOM)",
+      "Manual de Inspección de Componentes (CIM)"
+    ]
+  },
+  {
+    "front": "¿Qué información contiene el SRD (Storage and Recovery Document)?",
+    "back": "Procedimientos para el mantenimiento de aeronaves almacenadas.",
+    "wrongOptions": [
+      "Instrucciones para la operación de la aeronave",
+      "Datos sobre el rendimiento de los componentes"
+    ]
+  },
+  {
+    "front": "¿Cuál es el propósito del SRM (Structural Repair Manual)?",
+    "back": "Proporcionar información sobre la reparación de daños estructurales menores.",
+    "wrongOptions": [
+      "Listar todos los componentes de la aeronave",
+      "Detallar el mantenimiento de motores"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de daños puede tratar el SRM?",
+    "back": "Daños estructurales no muy graves.",
+    "wrongOptions": [
+      "Daños en sistemas eléctricos",
+      "Daños en componentes de motor"
+    ]
+  },
+  {
+    "front": "¿Qué documento muestra la planificación del mantenimiento de la aeronave?",
+    "back": "MPD (Maintenance Planning Data Document)",
+    "wrongOptions": [
+      "FIM (Fault Isolation Manual)",
+      "IPC (Illustrated Parts Catalogue)"
+    ]
+  },
+  {
+    "front": "¿Qué tipo de tareas incluye el MPD?",
+    "back": "Daily check, letter check, etc.",
+    "wrongOptions": [
+      "Tareas de inspección visual",
+      "Tareas de limpieza exterior"
+    ]
+  },
+  {
+    "front": "¿Qué es el IPC (Illustrated Parts Catalogue)?",
+    "back": "Documento que contiene todas las partes o componentes de un avión.",
+    "wrongOptions": [
+      "Manual de operación de la aeronave",
+      "Registro de mantenimiento de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué información se proporciona en el FIM (Fault Isolation Manual)?",
+    "back": "Conjunto de árboles de aislamiento de fallos.",
+    "wrongOptions": [
+      "Instrucciones para la operación de la aeronave",
+      "Lista de componentes de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué indica el EICAS en caso de un fallo?",
+    "back": "Muestra los fallos en color amarillo/ámbar.",
+    "wrongOptions": [
+      "Muestra los fallos en color rojo",
+      "No muestra información sobre fallos"
+    ]
+  },
+  {
+    "front": "¿Qué documento se lleva en cabina y está orientado a las tripulaciones?",
+    "back": "FRM (Fault Report Manual)",
+    "wrongOptions": [
+      "AMM (Aircraft Maintenance Manual)",
+      "CMM (Component Maintenance Manual)"
+    ]
+  },
+  {
+    "front": "¿Qué se utiliza para identificar cada componente en el IPC?",
+    "back": "Part Number (P/N)",
+    "wrongOptions": [
+      "Serial Number (S/N)",
+      "Component Code (C/C)"
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer si los daños superan los límites del SRM?",
+    "back": "Contactar con ingeniería para esquemas de reparación específicos.",
+    "wrongOptions": [
+      "Realizar la reparación sin consultar",
+      "Ignorar los daños y continuar el vuelo"
+    ]
+  },
+  {
+    "front": "¿Qué incluye el SRM en relación a las abolladuras?",
+    "back": "Indica las dimensiones y los límites de los daños.",
+    "wrongOptions": [
+      "Proporciona una lista de herramientas necesarias",
+      "Detalla el proceso de limpieza de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué documento proporciona información sobre los intervalos de horas o ciclos de los componentes?",
+    "back": "MPD (Maintenance Planning Data Document)",
+    "wrongOptions": [
+      "VM (Vendor Manual)",
+      "CMM (Component Maintenance Manual)"
+    ]
+  },
+  {
+    "front": "¿Qué se debe hacer al final de cada tarea en el FIM?",
+    "back": "Preguntar: '¿Se ha eliminado el fallo?'",
+    "wrongOptions": [
+      "Registrar el tiempo de la tarea",
+      "Notificar a la tripulación sobre el fallo"
+    ]
+  },
+  {
+    "front": "¿Qué es el VM (Vendor Manual)?",
+    "back": "Manual del vendedor.",
+    "wrongOptions": [
+      "Manual de mantenimiento de la aeronave",
+      "Manual de operación de la aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué se debe consultar si un componente necesita ser sustituido?",
+    "back": "MMC (Manual de Mantenimiento de Componentes)",
+    "wrongOptions": [
+      "AMM (Aircraft Maintenance Manual)",
+      "FIM (Fault Isolation Manual)"
+    ]
+  },
+  {
+    "front": "¿Qué documento proporciona una lista de tareas de mantenimiento y revisión para la aeronave?",
+    "back": "El documento de mantenimiento y revisión.",
+    "wrongOptions": [
+      "El Schematic Diagram Manual (SDM)",
+      "El Wiring Diagram Manual (WDM)"
+    ]
+  },
+  {
+    "front": "¿Qué son los requisitos de certificación (CMR)?",
+    "back": "Son tareas exigidas por la FAA para mantener la certificación de la aeronave.",
+    "wrongOptions": [
+      "Tareas opcionales recomendadas por el fabricante",
+      "Tareas de mantenimiento que no requieren certificación"
+    ]
+  },
+  {
+    "front": "¿Qué proceso se menciona como responsable del desarrollo de tareas de mantenimiento además de los requisitos de certificación?",
+    "back": "El proceso MSG.",
+    "wrongOptions": [
+      "El proceso CMR",
+      "El proceso DDG"
+    ]
+  },
+  {
+    "front": "¿Cómo se dividen las tareas de mantenimiento para modelos de aeronaves más antiguos?",
+    "back": "Se dividen en diarias, de tránsito, de comprobación de cartas, límites horarios y límites de ciclo.",
+    "wrongOptions": [
+      "En tareas de mantenimiento preventivo y correctivo",
+      "En tareas de inspección y reparación"
+    ]
+  },
+  {
+    "front": "¿Qué información contiene el Schematic Diagram Manual (SDM)?",
+    "back": "Contiene diagramas esquemáticos de los sistemas eléctricos, electrónicos e hidráulicos de la aeronave.",
+    "wrongOptions": [
+      "Instrucciones de mantenimiento de componentes",
+      "Listados de piezas y repuestos"
+    ]
+  },
+  {
+    "front": "¿Cuál es la función del Wiring Diagram Manual (WDM)?",
+    "back": "Mostrar el esquema de todo el cableado del avión.",
+    "wrongOptions": [
+      "Proporcionar diagramas de mantenimiento",
+      "Ofrecer un listado de tareas de inspección"
+    ]
+  },
+  {
+    "front": "¿Qué es la Master Minimum Equipment List (MMEL)?",
+    "back": "Es un documento que identifica los equipos que pueden estar degradados o inoperativos en el momento del despacho de la aeronave.",
+    "wrongOptions": [
+      "Una lista de tareas de mantenimiento obligatorias",
+      "Un manual de operaciones para la tripulación"
+    ]
+  },
+  {
+    "front": "¿Quién otorga la MMEL?",
+    "back": "El fabricante.",
+    "wrongOptions": [
+      "La autoridad aeronáutica",
+      "El operador aéreo"
+    ]
+  },
+  {
+    "front": "¿Qué documento está relacionado con la MEL y proporciona un listado de elementos que se pueden diferir?",
+    "back": "El Dispatch Deviation Guide (DDG).",
+    "wrongOptions": [
+      "El Configuration Deviation List (CDL)",
+      "El Master Minimum Equipment List (MMEL)"
+    ]
+  },
+  {
+    "front": "¿Qué indica el Configuration Deviation List (CDL)?",
+    "back": "Cómo debe configurarse el avión en caso de que se estropee un componente que no esté relacionado con la seguridad.",
+    "wrongOptions": [
+      "Los procedimientos de mantenimiento a seguir",
+      "Los componentes que deben ser reemplazados"
+    ]
+  },
+  {
+    "front": "¿Qué son las Task Cards?",
+    "back": "Tarjetas de órdenes de trabajo que indican cómo hacer el mantenimiento de un componente determinado.",
+    "wrongOptions": [
+      "Listados de piezas de repuesto",
+      "Documentos de auditoría de calidad"
+    ]
+  },
+  {
+    "front": "¿Qué son los Service Bulletins?",
+    "back": "Modificaciones que se hacen en los sistemas o componentes emitidas por el fabricante.",
+    "wrongOptions": [
+      "Documentos de mantenimiento obligatorios",
+      "Informes de auditoría interna"
+    ]
+  },
+  {
+    "front": "¿Qué es un Service Letter?",
+    "back": "Un comunicado de servicio que manda el fabricante al operador para mejorar el mantenimiento de una aeronave.",
+    "wrongOptions": [
+      "Un documento que detalla los requisitos de mantenimiento",
+      "Una directiva de aeronavegabilidad"
+    ]
+  },
+  {
+    "front": "¿Qué son las Advisory Circulars (ACs)?",
+    "back": "Circulares que advierten de problemas que han podido surgir en la aeronave y dan guía para la actuación.",
+    "wrongOptions": [
+      "Documentos de mantenimiento interno",
+      "Informes de auditoría de calidad"
+    ]
+  },
+  {
+    "front": "¿Qué información suele incluir una Airworthiness Directive (AD)?",
+    "back": "Descripción de la condición de no seguridad, número de serie de la aeronave, componente afectado, plazo de ejecución, coste, acción correctiva requerida.",
+    "wrongOptions": [
+      "Recomendaciones de mantenimiento opcionales",
+      "Listados de piezas de repuesto"
+    ]
+  },
+  {
+    "front": "¿Qué es la MEL (Minimum Equipment List)?",
+    "back": "Un documento creado por el operador y certificado por la autoridad aeronáutica que indica con qué componentes inoperativos puede volar la aeronave.",
+    "wrongOptions": [
+      "Un manual de mantenimiento interno",
+      "Una lista de auditoría de calidad"
+    ]
+  },
+  {
+    "front": "¿Qué requisitos son obligatorios para mantener la licencia AOC (Air Operator Certificate)?",
+    "back": "Responsabilidad de la aeronavegabilidad y disponer de un Manual de Mantenimiento.",
+    "wrongOptions": [
+      "Tener un equipo de mantenimiento externo",
+      "Realizar auditorías anuales"
+    ]
+  },
+  {
+    "front": "¿Qué debe contener el manual de operaciones de la compañía aérea?",
+    "back": "Un listado de todas las aeronaves que forman parte de la flota y la responsabilidad de mantener el certificado de aeronavegabilidad.",
+    "wrongOptions": [
+      "Los costos de mantenimiento",
+      "Las especificaciones técnicas de cada aeronave"
+    ]
+  },
+  {
+    "front": "¿Qué es el RPM (Reliability Program Manual)?",
+    "back": "Un documento interno que registra la trazabilidad de fallos de los componentes de las aeronaves.",
+    "wrongOptions": [
+      "Un manual de operaciones de la tripulación",
+      "Un documento de auditoría de calidad"
+    ]
+  },
+  {
+    "front": "¿Qué es el condition monitoring?",
+    "back": "Operar los componentes de fallo a fallo para obtener información que mejora el mantenimiento.",
+    "wrongOptions": [
+      "Un tipo de mantenimiento preventivo",
+      "Un informe de auditoría de calidad"
+    ]
+  },
+  {
+    "front": "¿Qué son las Engineering Orders?",
+    "back": "Órdenes de trabajo generadas por la aerolínea que especifican los trabajos de mantenimiento a realizar.",
+    "wrongOptions": [
+      "Documentos de auditoría interna",
+      "Listados de piezas de repuesto"
+    ]
+  },
+  {
+    "front": "¿Qué se requiere para que la MEL sea válida?",
+    "back": "La MEL debe ser el resultado de la MMEL, creada por el fabricante, con modificaciones del operador y nunca puede ser menos restrictiva que la MMEL.",
+    "wrongOptions": [
+      "Debe ser un documento opcional",
+      "No necesita certificación de la autoridad"
+    ]
+  },
+  {
+    "front": "¿Qué documento permite llevar la trazabilidad de lo que ha pedido la autoridad para emitir el certificado de aeronavegabilidad?",
+    "back": "Especs Operativas.",
+    "wrongOptions": [
+      "Task Cards",
+      "Technical Policies"
+    ]
+  },
+  {
+    "front": "¿Qué son las Technical Policies?",
+    "back": "Procedimientos que la compañía aérea sigue para hacer el mantenimiento de la aeronave.",
+    "wrongOptions": [
+      "Documentos de auditoría de calidad",
+      "Listados de piezas de repuesto"
+    ]
+  },
+  {
+    "front": "¿Qué incluye el Inspection Manual y Quality Assurance?",
+    "back": "Todas las task cards, tarjetas de inspección de mantenimiento y auditorías de calidad internas.",
+    "wrongOptions": [
+      "Listados de piezas de repuesto",
+      "Recomendaciones de mantenimiento opcionales"
+    ]
+  },
+  {
+    "front": "¿Qué es el AOC en el contexto de la aviación?",
+    "back": "AOC significa Air Operator Certificate, que es un certificado obligatorio para operar aeronaves.",
+    "wrongOptions": [
+      "AOC significa Aircraft Operational Control.",
+      "AOC es un tipo de licencia de piloto."
+    ]
+  },
+  {
+    "front": "¿Quién es responsable de mantener el certificado de aeronavegabilidad de la flota?",
+    "back": "El operador es el responsable de mantener el certificado de aeronavegabilidad como propietario de la flota.",
+    "wrongOptions": [
+      "El fabricante de las aeronaves es responsable.",
+      "La autoridad de aviación civil es responsable."
+    ]
+  },
+  {
+    "front": "¿Qué debe incluir el manual de operaciones de la compañía?",
+    "back": "Un listado de todas las aeronaves que forman parte de la flota.",
+    "wrongOptions": [
+      "Un análisis financiero de la compañía.",
+      "Los nombres de todos los empleados de la compañía."
+    ]
+  },
+  {
+    "front": "¿Qué tipo de empresas debe supervisar el operador en relación al mantenimiento de aeronaves?",
+    "back": "Las empresas subcontratadas para realizar el mantenimiento de sus aeronaves.",
+    "wrongOptions": [
+      "Las empresas de venta de aeronaves.",
+      "Las empresas de seguros de aviación."
+    ]
+  },
+  {
+    "front": "¿Qué documentos deben estar aprobados y disponibles en el Manual de Mantenimiento?",
+    "back": "Los procedimientos aprobados tanto por el fabricante como por la autoridad.",
+    "wrongOptions": [
+      "Los manuales de los pilotos.",
+      "Las normativas de seguridad de los aeropuertos."
+    ]
+  },
+  {
+    "front": "¿De qué se alimenta el manual de mantenimiento?",
+    "back": "Del component manual y el vendor manual.",
+    "wrongOptions": [
+      "Del manual de operaciones de vuelo.",
+      "Del manual de seguridad de la aviación."
+    ]
+  },
+  {
+    "front": "¿Qué debe proponer el operador en relación a la organización de mantenimiento?",
+    "back": "Una organización de mantenimiento, ya sea propia o subcontratada.",
+    "wrongOptions": [
+      "Un programa de reciclaje de materiales.",
+      "Un plan de marketing para la compañía."
+    ]
+  },
+  {
+    "front": "¿Qué debe especificar el operador sobre el mantenimiento que realiza?",
+    "back": "Si el mantenimiento lo realiza él mismo o lo subcontrata a terceros.",
+    "wrongOptions": [
+      "El costo del mantenimiento.",
+      "La duración de las aeronaves en servicio."
+    ]
+  },
+  {
+    "front": "¿Quién crea el programa de mantenimiento?",
+    "back": "El fabricante, y debe ser aprobado por la autoridad.",
+    "wrongOptions": [
+      "El operador de la flota.",
+      "Las empresas subcontratadas."
+    ]
+  },
+  {
+    "front": "¿Qué puede suceder en caso de incumplimiento del programa de mantenimiento?",
+    "back": "Se puede llegar a perder el certificado de aeronavegabilidad y el de AOC.",
+    "wrongOptions": [
+      "Se puede recibir una multa económica.",
+      "Se puede suspender la licencia de piloto."
+    ]
+  },
+  {
+    "front": "¿Cuánto tiempo debe archivarse la información de mantenimiento según la autoridad?",
+    "back": "Durante 5 años.",
+    "wrongOptions": [
+      "Durante 2 años.",
+      "Durante 10 años."
+    ]
+  },
+  {
+    "front": "¿Qué tipo de certificados deben estar incluidos en el registro de datos?",
+    "back": "Los certificados tipo suplementario (STC) y las directivas de aeronavegabilidad.",
+    "wrongOptions": [
+      "Los certificados de piloto.",
+      "Los certificados de seguridad de los aeropuertos."
+    ]
+  },
+  {
+    "front": "¿Qué se debe documentar en relación al mantenimiento y las modificaciones de la aeronave?",
+    "back": "Recoger documentalmente todas las instrucciones para poder realizar el mantenimiento.",
+    "wrongOptions": [
+      "Registrar el costo de cada modificación.",
+      "Mantener un registro de los vuelos realizados."
+    ]
+  },
+  {
+    "front": "¿Qué son los contratos de mantenimiento?",
+    "back": "Procedimientos de contratación para tareas de mantenimiento que no se pueden realizar internamente.",
+    "wrongOptions": [
+      "Acuerdos de compra de aeronaves.",
+      "Contratos de arrendamiento de aeronaves."
+    ]
+  },
+  {
+    "front": "¿En qué se dividen los contratos de mantenimiento?",
+    "back": "En revisiones periódicas y componentes hard time y motores.",
+    "wrongOptions": [
+      "En mantenimiento preventivo y correctivo.",
+      "En mantenimiento interno y externo."
+    ]
+  },
+  {
+    "front": "¿Qué es el 'Powered by the hour' en el contexto de contratos de mantenimiento?",
+    "back": "Un método de pago que normalmente se aplica mediante una tarifa plana.",
+    "wrongOptions": [
+      "Un tipo de mantenimiento preventivo.",
+      "Un programa de reciclaje de materiales."
+    ]
+  },
+  {
+    "front": "¿Qué se necesita verificar como operador en relación al mantenimiento?",
+    "back": "Que el mantenimiento se hace de forma segura y monitorizar los fallos de la aeronave.",
+    "wrongOptions": [
+      "Que el mantenimiento se realice en el menor tiempo posible.",
+      "Que el mantenimiento sea realizado únicamente por el personal interno."
+    ]
+  },
+  {
+    "front": "¿Qué es necesario tener en relación al entrenamiento de personal de mantenimiento?",
+    "back": "Un departamento de formación que controle que las licencias estén al día.",
+    "wrongOptions": [
+      "Una escuela de formación certificada.",
+      "Un programa de incentivos económicos."
+    ]
+  },
+  {
+    "front": "¿Cuál es la política sobre materiales y productos peligrosos que debe tener el operador?",
+    "back": "Tener un programa de reciclaje de materiales peligrosos para un reciclaje adecuado.",
+    "wrongOptions": [
+      "No utilizar materiales peligrosos en el mantenimiento.",
+      "Contratar a una empresa externa para la gestión de residuos."
+    ]
+  }
+]
