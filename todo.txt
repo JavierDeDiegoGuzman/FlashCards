@@ -1,0 +1,2 @@
+añadir tags y poder filtar a los decks
+hacer que los botones cambien mientras se ejecuta la accion

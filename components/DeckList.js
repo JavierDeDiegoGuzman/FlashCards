@@ -32,25 +32,27 @@ export default function DeckList() {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-      {decks.map((deck) => (
-        <div
-          key={deck._id}
-          className="relative bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
-        >
-          <div className="absolute top-2 right-2">
-            <DeckOptionsMenu deck={{ id: deck._id, name: deck.name }} onDeckUpdate={loadDecks} />
-          </div>
-          <Link href={`/dashboard/deck/${deck._id}`}>
-            <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">{deck.name}</h3>
-              <p className="text-gray-600">
-                {deck.flashcardCount} {deck.flashcardCount === 1 ? 'tarjeta' : 'tarjetas'}
-              </p>
+    <div className="max-w-7xl mx-auto px-4">
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+        {decks.map((deck) => (
+          <div
+            key={deck._id}
+            className="relative bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow w-full"
+          >
+            <div className="absolute top-2 right-2">
+              <DeckOptionsMenu deck={{ id: deck._id, name: deck.name }} onDeckUpdate={loadDecks} />
             </div>
-          </Link>
-        </div>
-      ))}
+            <Link href={`/dashboard/deck/${deck._id}`}>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">{deck.name}</h3>
+                <p className="text-gray-600">
+                  {deck.flashcardCount} {deck.flashcardCount === 1 ? 'tarjeta' : 'tarjetas'}
+                </p>
+              </div>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   );
 } 
