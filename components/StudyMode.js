@@ -1,10 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { ArrowPathIcon, XMarkIcon, CheckIcon, PencilIcon, EllipsisVerticalIcon, TrashIcon } from '@heroicons/react/24/outline';
+import { XMarkIcon, CheckIcon, PencilIcon, EllipsisVerticalIcon, TrashIcon } from '@heroicons/react/24/outline';
 import ReactMarkdown from 'react-markdown';
 import Modal from './Modal';
 import EditFlashcardModal from './EditFlashcardModal';
+import { useRouter } from 'next/navigation';
+import { signIn } from "next-auth/react";
 
 // Configuración del sistema de niveles
 const LEVEL_CONFIG = {
@@ -92,6 +94,7 @@ const checkSavedSession = (deckId) => {
 };
 
 export default function StudyMode({ initialFlashcards, deckId, userId }) {
+  const router = useRouter();
   const [mode, setMode] = useState(null);
   const [queue, setQueue] = useState([]);
   const [currentCard, setCurrentCard] = useState(null);
@@ -557,7 +560,6 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
           <p className="text-gray-600">
             Completadas: {completed}
           </p>
-          {userId && currentCard && deckData && deckData.userId === userId && (
             <div className="relative">
               <button
                 onClick={(e) => {
@@ -570,36 +572,59 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
               </button>
 
               {isMenuOpen && (
-                <div 
-                  className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
-                  onClick={(e) => e.stopPropagation()}
-                >
-                  <div className="py-1">
-                    <button
-                      onClick={() => {
-                        setIsEditOpen(true);
-                        setIsMenuOpen(false);
-                      }}
-                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
-                    >
-                      <PencilIcon className="h-4 w-4 mr-3" />
-                      Editar
-                    </button>
-                    <button
-                      onClick={() => {
-                        setIsDeleteModalOpen(true);
-                        setIsMenuOpen(false);
-                      }}
-                      className="flex items-center px-4 py-2 text-sm text-red-600 hover:bg-gray-100 w-full"
-                    >
-                      <TrashIcon className="h-4 w-4 mr-3" />
-                      Eliminar
-                    </button>
+                userId && currentCard && deckData && deckData.userId === userId ? (
+                  <div 
+                    className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <div className="py-1">
+                      <button
+                        onClick={() => {
+                          setIsEditOpen(true);
+                          setIsMenuOpen(false);
+                        }}
+                        className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
+                      >
+                        <PencilIcon className="h-4 w-4 mr-3" />
+                        Editar
+                      </button>
+                      <button
+                        onClick={() => {
+                          setIsDeleteModalOpen(true);
+                          setIsMenuOpen(false);
+                        }}
+                        className="flex items-center px-4 py-2 text-sm text-red-600 hover:bg-gray-100 w-full"
+                      >
+                        <TrashIcon className="h-4 w-4 mr-3" />
+                        Eliminar
+                      </button>
+                    </div>
                   </div>
-                </div>
+                ) : (
+                  userId ? (
+                  <div 
+                    className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <div className="py-2 px-4 text-sm text-gray-500">
+                      Solo el creador puede editar este deck
+                    </div>
+                  </div> ):(
+                  <div 
+                    className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                        <button
+                          onClick={() => signIn(undefined, { callbackUrl: window.location.href })}
+                        className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
+                      >
+                        Iniciar sesión
+                      </button>
+                  </div> 
+                  )
+                )
               )}
             </div>
-          )}
         </div>
       </div>
 
