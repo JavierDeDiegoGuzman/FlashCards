@@ -45,7 +45,6 @@ export default function ImportFlashcardsButton({ deckId, onImport }) {
     // Cerrar modal y actualizar la vista
     setIsOpen(false);
     if (onImport) onImport();
-    if (window.refreshFlashcardList) window.refreshFlashcardList();
   };
 
   const handleFileUpload = async (e) => {

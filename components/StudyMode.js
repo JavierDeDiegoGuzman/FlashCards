@@ -1,12 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { XMarkIcon, CheckIcon, PencilIcon, EllipsisVerticalIcon, TrashIcon } from '@heroicons/react/24/outline';
+import { ArrowPathIcon, XMarkIcon, CheckIcon, PencilIcon, EllipsisVerticalIcon, TrashIcon } from '@heroicons/react/24/outline';
 import ReactMarkdown from 'react-markdown';
 import Modal from './Modal';
 import EditFlashcardModal from './EditFlashcardModal';
-import { useRouter } from 'next/navigation';
-import { signIn } from "next-auth/react";
 
 // Configuración del sistema de niveles
 const LEVEL_CONFIG = {
@@ -79,22 +77,17 @@ const checkSavedSession = (deckId) => {
     
     const parsedState = JSON.parse(savedState);
     
-    if (!parsedState.mode || 
-        !Array.isArray(parsedState.queue) || 
-        parsedState.queue.length === 0 || 
-        !parsedState.cardStates) {
+    if (!parsedState.mode || !parsedState.queue) {
       return null;
     }
     
     return parsedState;
   } catch (error) {
-    console.error('Error al verificar la sesión guardada:', error);
     return null;
   }
 };
 
 export default function StudyMode({ initialFlashcards, deckId, userId }) {
-  const router = useRouter();
   const [mode, setMode] = useState(null);
   const [queue, setQueue] = useState([]);
   const [currentCard, setCurrentCard] = useState(null);
@@ -103,11 +96,6 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
   const [cardStates, setCardStates] = useState({});
   const [savedSession, setSavedSession] = useState(null);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
-  const [editingCard, setEditingCard] = useState(null);
-  const [isEditOpen, setIsEditOpen] = useState(false);
-  const [front, setFront] = useState('');
-  const [back, setBack] = useState('');
-  const [deckData, setDeckData] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
   const [options, setOptions] = useState([]);
@@ -115,6 +103,10 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
   const [showResult, setShowResult] = useState(false);
   const [feedback, setFeedback] = useState(null);
   const [autoAdvanceTimeout, setAutoAdvanceTimeout] = useState(null);
+
+  useEffect(() => {
+    console.log('📝 Flashcards iniciales:', initialFlashcards);
+  }, [initialFlashcards]);
 
   useEffect(() => {
     if (currentCard) {
@@ -165,6 +157,7 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
         throw new Error('Error al obtener las tarjetas');
       }
       const data = await response.json();
+      console.log('🔄 Flashcards actualizadas del servidor:', data.data);
       return data.data;
     } catch (error) {
       return null;
@@ -175,12 +168,17 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
     const serverFlashcards = await fetchUpdatedFlashcards();
     
     if (!serverFlashcards) {
-      return null;
+      return savedState;
     }
 
-    // Si no hay estado guardado, retornar null en lugar de crear uno nuevo
     if (!savedState) {
-      return null;
+      return {
+        mode: null,
+        queue: serverFlashcards,
+        currentCard: null,
+        completed: 0,
+        cardStates: {}
+      };
     }
 
     const serverFlashcardsMap = new Map(
@@ -191,11 +189,6 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
       const serverVersion = serverFlashcardsMap.get(card._id);
       return serverVersion || card;
     }).filter(card => serverFlashcardsMap.has(card._id));
-
-    // Si después de la sincronización no quedan tarjetas, retornar null
-    if (updatedQueue.length === 0) {
-      return null;
-    }
 
     const updatedCurrentCard = savedState.currentCard 
       ? (serverFlashcardsMap.get(savedState.currentCard._id) || savedState.currentCard)
@@ -229,17 +222,16 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
           const parsedState = JSON.parse(savedState);
           const syncedState = await syncWithServer(parsedState);
           
-          // Solo establecer el estado si hay una sesión válida
-          if (syncedState && syncedState.mode && syncedState.queue && syncedState.queue.length > 0) {
+          if (syncedState.mode && syncedState.queue) {
             setSavedSession(syncedState);
-          } else {
-            setSavedSession(null);
           }
         } catch (error) {
-          setSavedSession(null);
+          const syncedState = await syncWithServer(null);
+          setSavedSession(syncedState);
         }
       } else {
-        setSavedSession(null);
+        const syncedState = await syncWithServer(null);
+        setSavedSession(syncedState);
       }
     };
 
@@ -296,89 +288,6 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
     setIsFlipped(false);
   };
 
-  const handleEditCard = async (updatedCard) => {
-    try {
-      const response = await fetch(`/api/decks/${deckId}/flashcards/${updatedCard._id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          front: updatedCard.front,
-          back: updatedCard.back,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error('Error al actualizar la tarjeta');
-      }
-
-      const updatedFlashcards = queue.map(card => 
-        card._id === updatedCard._id ? updatedCard : card
-      );
-      setQueue(updatedFlashcards);
-      
-      if (currentCard._id === updatedCard._id) {
-        setCurrentCard(updatedCard);
-      }
-      
-      setIsEditModalOpen(false);
-      setEditingCard(null);
-    } catch (error) {
-    }
-  };
-
-  const handleTab = (e, setValue) => {
-    if (e.key === 'Tab') {
-      e.preventDefault();
-      const start = e.target.selectionStart;
-      const end = e.target.selectionEnd;
-      const value = e.target.value;
-      const newValue = value.substring(0, start) + '    ' + value.substring(end);
-      setValue(newValue);
-      setTimeout(() => {
-        e.target.selectionStart = e.target.selectionEnd = start + 4;
-      }, 0);
-    }
-  };
-
-  const handleEdit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch(
-        `/api/decks/${deckId}/flashcards/${currentCard._id}`,
-        {
-          method: 'PUT',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ front, back }),
-        }
-      );
-
-      if (!response.ok) {
-        throw new Error('Error al actualizar la tarjeta');
-      }
-
-      const updatedCard = { ...currentCard, front, back };
-      const updatedQueue = queue.map(card => 
-        card._id === currentCard._id ? updatedCard : card
-      );
-      
-      setQueue(updatedQueue);
-      setCurrentCard(updatedCard);
-      setIsEditOpen(false);
-    } catch (error) {
-    }
-  };
-
-  useEffect(() => {
-    if (currentCard && isEditOpen) {
-      setFront(currentCard.front);
-      setBack(currentCard.back);
-    }
-  }, [currentCard, isEditOpen]);
-
   const handleUpdateCard = (updatedCard) => {
     const updatedQueue = queue.map(card => 
       card._id === updatedCard._id ? updatedCard : card
@@ -387,26 +296,12 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
     setCurrentCard(updatedCard);
   };
 
-  useEffect(() => {
-    const fetchDeckData = async () => {
-      try {
-        const response = await fetch(`/api/decks/${deckId}`);
-        if (!response.ok) throw new Error('Error al obtener el deck');
-        const data = await response.json();
-        setDeckData(data.data);
-      } catch (error) {
-      }
-    };
-
-    fetchDeckData();
-  }, [deckId]);
-
   const handleDelete = async () => {
     if (!currentCard) return;
     
     try {
       const response = await fetch(
-        `/api/decks/${deckId}/flashcards/${currentCard._id}`,
+        `/api/decks/${currentCard.deckId}/flashcards/${currentCard._id}`,
         {
           method: 'DELETE',
         }
@@ -422,6 +317,7 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
       setIsMenuOpen(false);
       setIsDeleteModalOpen(false);
     } catch (error) {
+      console.error('Error:', error);
     }
   };
 
@@ -505,7 +401,7 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
         <h3 className="text-2xl font-bold mb-6">Selecciona el modo de estudio</h3>
         
         <div className="grid gap-4 max-w-md w-full mb-8">
-          {savedSession && savedSession.queue.length > 0 && (
+          {savedSession && (
             <>
               <button
                 onClick={continueSavedSession}
@@ -560,6 +456,7 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
           <p className="text-gray-600">
             Completadas: {completed}
           </p>
+          {currentCard?.canBeEdited && (
             <div className="relative">
               <button
                 onClick={(e) => {
@@ -572,59 +469,36 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
               </button>
 
               {isMenuOpen && (
-                userId && currentCard && deckData && deckData.userId === userId ? (
-                  <div 
-                    className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    <div className="py-1">
-                      <button
-                        onClick={() => {
-                          setIsEditOpen(true);
-                          setIsMenuOpen(false);
-                        }}
-                        className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
-                      >
-                        <PencilIcon className="h-4 w-4 mr-3" />
-                        Editar
-                      </button>
-                      <button
-                        onClick={() => {
-                          setIsDeleteModalOpen(true);
-                          setIsMenuOpen(false);
-                        }}
-                        className="flex items-center px-4 py-2 text-sm text-red-600 hover:bg-gray-100 w-full"
-                      >
-                        <TrashIcon className="h-4 w-4 mr-3" />
-                        Eliminar
-                      </button>
-                    </div>
+                <div 
+                  className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <div className="py-1">
+                    <button
+                      onClick={() => {
+                        setIsEditModalOpen(true);
+                        setIsMenuOpen(false);
+                      }}
+                      className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
+                    >
+                      <PencilIcon className="h-4 w-4 mr-3" />
+                      Editar
+                    </button>
+                    <button
+                      onClick={() => {
+                        setIsDeleteModalOpen(true);
+                        setIsMenuOpen(false);
+                      }}
+                      className="flex items-center px-4 py-2 text-sm text-red-600 hover:bg-gray-100 w-full"
+                    >
+                      <TrashIcon className="h-4 w-4 mr-3" />
+                      Eliminar
+                    </button>
                   </div>
-                ) : (
-                  userId ? (
-                  <div 
-                    className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    <div className="py-2 px-4 text-sm text-gray-500">
-                      Solo el creador puede editar este deck
-                    </div>
-                  </div> ):(
-                  <div 
-                    className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50"
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                        <button
-                          onClick={() => signIn(undefined, { callbackUrl: window.location.href })}
-                        className="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-full"
-                      >
-                        Iniciar sesión
-                      </button>
-                  </div> 
-                  )
-                )
+                </div>
               )}
             </div>
+          )}
         </div>
       </div>
 
@@ -713,11 +587,10 @@ export default function StudyMode({ initialFlashcards, deckId, userId }) {
       )}
 
       <EditFlashcardModal
-        show={isEditOpen}
-        onClose={() => setIsEditOpen(false)}
+        show={isEditModalOpen}
+        onClose={() => setIsEditModalOpen(false)}
         flashcard={currentCard}
         onUpdate={handleUpdateCard}
-        deckId={deckId}
       />
 
       <Modal

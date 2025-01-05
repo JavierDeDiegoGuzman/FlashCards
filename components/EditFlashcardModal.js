@@ -5,9 +5,8 @@ import Modal from './Modal';
 export default function EditFlashcardModal({ 
   show, 
   onClose, 
-  flashcard, 
-  onUpdate,
-  deckId 
+  flashcard,
+  onUpdate
 }) {
   const [front, setFront] = useState('');
   const [back, setBack] = useState('');
@@ -39,9 +38,15 @@ export default function EditFlashcardModal({
 
   const handleEdit = async (e) => {
     e.preventDefault();
+    
+    if (!flashcard?._id || !flashcard?.deckId) {
+      console.error('Missing required IDs for edit');
+      return;
+    }
+
     try {
       const response = await fetch(
-        `/api/decks/${deckId}/flashcards/${flashcard._id}`,
+        `/api/decks/${flashcard.deckId}/flashcards/${flashcard._id}`,
         {
           method: 'PUT',
           headers: {
@@ -60,7 +65,14 @@ export default function EditFlashcardModal({
       }
 
       const data = await response.json();
-      onUpdate(data.data);
+      
+      const updatedFlashcard = {
+        ...data.data,
+        deckId: flashcard.deckId,
+        canBeEdited: flashcard.canBeEdited
+      };
+      
+      onUpdate(updatedFlashcard);
       onClose();
     } catch (error) {
       console.error('Error:', error);

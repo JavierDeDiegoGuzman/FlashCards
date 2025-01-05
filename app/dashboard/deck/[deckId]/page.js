@@ -39,6 +39,11 @@ export default function DeckPage({ params }) {
     fetchDeckData();
   }, [params.deckId]);
 
+  // Función para actualizar el contador
+  const handleFlashcardsUpdate = () => {
+    fetchDeckData();
+  };
+
   if (loading || !deck) {
     return (
       <main className="min-h-screen p-8 pb-24">
@@ -64,15 +69,11 @@ export default function DeckPage({ params }) {
             </Link>
             <ImportFlashcardsButton 
               deckId={params.deckId} 
-              onImport={() => {
-                fetchDeckData();
-              }}
+              onImport={handleFlashcardsUpdate}
             />
             <CreateFlashcard 
               deckId={params.deckId} 
-              onUpdate={() => {
-                fetchDeckData();
-              }} 
+              onUpdate={handleFlashcardsUpdate} 
             />
           </div>
         </div>
@@ -95,7 +96,10 @@ export default function DeckPage({ params }) {
 
         <div className="bg-white rounded-lg shadow p-6">
           <h2 className="text-xl font-bold mb-4">Tarjetas</h2>
-          <FlashcardList deckId={params.deckId} />
+          <FlashcardList 
+            deckId={params.deckId} 
+            onListUpdate={handleFlashcardsUpdate}
+          />
         </div>
       </section>
     </main>
