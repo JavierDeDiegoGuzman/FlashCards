@@ -1,9 +1,10 @@
 "use client";
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import StudyMode from '@/components/StudyMode';
 
-export default function MultipleStudyPage() {
+// Componente interno que usa useSearchParams
+function MultipleStudyContent() {
   const searchParams = useSearchParams();
   const [flashcards, setFlashcards] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -128,5 +129,20 @@ export default function MultipleStudyPage() {
         />
       </div>
     </main>
+  );
+}
+
+// Componente principal envuelto en Suspense
+export default function MultipleStudyPage() {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen p-8">
+        <div className="max-w-3xl mx-auto text-center">
+          <p>Cargando...</p>
+        </div>
+      </main>
+    }>
+      <MultipleStudyContent />
+    </Suspense>
   );
 } 
